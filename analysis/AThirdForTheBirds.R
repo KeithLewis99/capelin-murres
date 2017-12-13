@@ -30,7 +30,7 @@ athird <- max(na.omit(cap_biom$nbiomass))/3
 
 
 ## plot ---- 
-png('output/AThirdForTheBirds.png', width = 900, height = 900, bg = 'transparent', pointsize = 15)
+png('analysis/output/AThirdForTheBirds.png', width = 900, height = 900, bg = 'transparent', pointsize = 15)
 # set up the plot
 with(cap_biom, plot(nbiomass, nbiomass, pch = '', yaxt = 'n', ylab = '', xlab = 'Normalized prey abundance', xlim = c(-2, 3), xaxp = c(-2,3,5)))
 # plot the rectangle for prior to 1991

@@ -46,7 +46,7 @@ g <- g + stat_summary(aes(as.factor(year)), fun.y = mean, geom = "point", fill =
 g <- g + xlab("Year") + ylab('Body weight (g)')
 g <- g + theme_cowplot(font_size = 10) + theme(axis.text.x = element_text(angle = 90, vjust = 0.5, size = 8))
 print(g)
-save_plot("output/AdultWeights.png", g, base_aspect_ratio = 1.4,  base_width = 6, bg = "transparent") # make room for figure legend)
+save_plot("analysis/output/AdultWeights.png", g, base_aspect_ratio = 1.4,  base_width = 6, bg = "transparent") # make room for figure legend)
 
 ## Chick and fledgling condition ----
 flc <- filter(cc, stage != 'adult' & year > 1990) %>%
@@ -65,7 +65,7 @@ g <- g + facet_grid(stage ~ ., scales = "free")
 g <- g + theme_bw() + theme(panel.grid.major = element_blank(),panel.grid.minor = element_blank())
 g <- g + theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = 0, size = 8))
  print(g)
- save_plot("output/ChickFledglingCondition.png", g, base_aspect_ratio = 1.4,  base_width = 6, bg = "transparent") # make room for figure legend)
+ save_plot("analysis/output/ChickFledglingCondition.png", g, base_aspect_ratio = 1.4,  base_width = 6, bg = "transparent") # make room for figure legend)
 
  ## Chick and fledgling weight ---- 
  flc <- filter(cc, stage != 'adult' & year > 1990) %>%
@@ -82,7 +82,7 @@ g <- g + theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = 0, size
  w <- w + facet_grid(stage ~ ., scales = "free")
   w <- w + theme_bw() + theme(panel.grid.major = element_blank(),panel.grid.minor = element_blank())
  w <- w + theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = 0, size = 8))
- save_plot("output/ChickFledglingWeight.png", w, base_aspect_ratio = 1.4,  base_width = 6, bg = "transparent") # make room for figure legend)
+ save_plot("analysis/output/ChickFledglingWeight.png", w, base_aspect_ratio = 1.4,  base_width = 6, bg = "transparent") # make room for figure legend)
  
  ## Chick and fledgling wing length ---- 
   wl <- filter(cc, stage != 'adult' & year > 1990) %>%
@@ -99,4 +99,4 @@ g <- g + theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = 0, size
  ww <- ww+ theme_bw() + theme(panel.grid.major = element_blank(),panel.grid.minor = element_blank())
  ww <- ww + theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust =0, size = 8))
  print(ww)
- save_plot("output/ChickFledglingWlength.png", ww, base_aspect_ratio = 1.4,  base_width = 6, bg = "transparent") # make room for figure legend)
+ save_plot("analysis/output/ChickFledglingWlength.png", ww, base_aspect_ratio = 1.4,  base_width = 6, bg = "transparent") # make room for figure legend)

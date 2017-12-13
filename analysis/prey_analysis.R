@@ -1,8 +1,8 @@
 
 library(ggplot2)
 library(dplyr)
-library(glmmTMB)
 library(TMB)
+library(glmmTMB)
 
 prey <- read.csv("data-raw/prey_deliveries.csv", na.strings = c("", "NA", "N/A"),
                  stringsAsFactors = FALSE)
@@ -46,7 +46,7 @@ ggplot(prop, aes(x = as.factor(year), y = prop, fill = prey_maturity)) +
     xlab("Year") + ylab("Percent") +
     cowplot::theme_cowplot() + cowplot::panel_border(colour = "black") + 
     theme(axis.text.x = element_text(angle = 90, hjust = 1))
-ggsave("analysis/percent_gravid_spent.png", height = 5, width = 9)
+ggsave("analysis/output/percent_gravid_spent.png", height = 5, width = 9)
 
 
 ## prey composition ------------------------------------------------------------
@@ -76,7 +76,7 @@ ggplot(prop, aes(x = as.factor(year), y = prop, fill = prey)) +
     xlab("Year") + ylab("Percent") +
     cowplot::theme_cowplot() + cowplot::panel_border(colour = "black") + 
     theme(axis.text.x = element_text(angle = 90, hjust = 1))
-ggsave("analysis/prey_comp.png", height = 5, width = 9)
+ggsave("analysis/output/prey_comp.png", height = 5, width = 9)
 
 
 
@@ -146,7 +146,7 @@ ggplot() +
     scale_x_continuous(breaks = min(preds$year):max(preds$year), expand = c(0.01, 0)) +
     xlab("Year") + ylab("Condition (Foltun's K)") +
     theme_bw() + theme(axis.text.x = element_text(angle = 90, vjust = 0.5))
-# ggsave("analysis/condition_trend.png", height = 5, width = 8)
+# ggsave("analysis/output/condition_trend.png", height = 5, width = 8)
 
 
 ## Not sure I like this model structure...hard to relate to random intercepts in 
@@ -237,7 +237,7 @@ cowplot::plot_grid(p1 + remove_x, p2 + remove_x, p3,
                    ncol = 1, labels = "AUTO", 
                    rel_heights = c(0.8, 0.8, 1),
                    align = "v")
-cowplot::ggsave("analysis/condition_trend.png", height = 10, width = 7)
+cowplot::ggsave("analysis/output/condition_trend.png", height = 10, width = 7)
 
 get_beta(condition_model)
 get_beta(weight_model)
