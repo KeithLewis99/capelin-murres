@@ -100,8 +100,17 @@ fledg_model <- fit_model(year = fledg_cond$year, response = fledg_cond$condition
 fledg_model$sd_rep 
 plot_model(fledg_model, ylab = "Condition (g/cm)", scale = 1)
 get_beta(fledg_model)
-
 ggsave("analysis/output/fledgling_condition_trend.png", height = 5, width = 7)
+
+fc_cond <- na.omit(flc)
+fc_cond %>% 
+  group_by(year) %>% 
+  summarize(N = n())
+fc_model <- fit_model(year = fc_cond$year, response = fc_cond$condition)
+fc_model$sd_rep 
+plot_model(fc_model, ylab = "Condition (g/cm)", scale = 1)
+get_beta(fc_model)
+ggsave("analysis/output/combined_chick_condition_trend.png", height = 5, width = 7)
 
  
  ## Chick and fledgling weight ---- 

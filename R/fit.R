@@ -65,7 +65,7 @@ plot_model <- function(model, ylab = NULL, scale = 1) {
   
   ggplot() +
     geom_ribbon(aes(x = year, ymin = fits_lwr, ymax = fits_upr), data = fits, fill = "lightgrey") +
-    geom_line(aes(x = year, y = fits), data = fits) +
+    geom_line(aes(x = year, y = fits), data = fits, colour = "grey60") +
     geom_errorbar(aes(x = year, ymin = mu_lwr, ymax = mu_upr), data = fits, width = 0) +
     geom_point(aes(x = year, y = mu), data = fits) +
     scale_x_continuous(breaks = min(tmb_data$years):max(tmb_data$years), expand = c(0.01, 0)) +
