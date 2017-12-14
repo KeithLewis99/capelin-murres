@@ -46,7 +46,7 @@ fit_model <- function(year = NULL, response = NULL) {
 #' @export
 #'
 
-plot_model <- function(model, ylab = NULL) {
+plot_model <- function(model, ylab = NULL, scale = 1) {
   
   sd_rep <- model$sd_rep
   tmb_data <- model$tmb_data
@@ -60,13 +60,15 @@ plot_model <- function(model, ylab = NULL) {
   fits$fits_upr <- fits$fits + 1.96 * fits$fits_sd
   fits$mu_lwr <- fits$mu - 1.96 * fits$mu_sd
   fits$mu_upr <- fits$mu + 1.96 * fits$mu_sd
+  nms <- c("fits", "fits_lwr", "fits_upr", "mu", "mu_lwr", "mu_upr")
+  fits[, nms] <- fits[, nms] * scale
   
   ggplot() +
     geom_ribbon(aes(x = year, ymin = fits_lwr, ymax = fits_upr), data = fits, fill = "lightgrey") +
     geom_line(aes(x = year, y = fits), data = fits) +
     geom_errorbar(aes(x = year, ymin = mu_lwr, ymax = mu_upr), data = fits, width = 0) +
     geom_point(aes(x = year, y = mu), data = fits) +
-    scale_x_continuous(breaks = min(preds$year):max(preds$year), expand = c(0.01, 0)) +
+    scale_x_continuous(breaks = min(tmb_data$years):max(tmb_data$years), expand = c(0.01, 0)) +
     xlab("Year") + ylab(ylab) +
     cowplot::theme_cowplot() + theme(axis.text.x = element_text(angle = 90, vjust = 0.5))
   
