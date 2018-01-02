@@ -15,12 +15,13 @@ source("R/fit.R")
 ############################
 
 ## read data ----
-cc <- read.csv("data-raw/COMU_condition.csv", header = T, as.is = T)
+cc <- read.csv("data-raw/COMU_condition_consolidated.csv", header = T, as.is = T)
 
 ## manipulate data ----
 cc <- subset(cc, colony == "Funk")
 cc <- subset(cc, species == "COMU")
 cc$dates <- dmy(cc$date)
+cc$bird_weight <- as.numeric(cc$bird_weight)
 cc$condition <- cc$bird_weight / cc$winglength
 cc[which(cc$stage == "Adult"), "stage"] <- "adult"
 
