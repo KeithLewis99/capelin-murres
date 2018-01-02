@@ -150,3 +150,14 @@ ww <- ww + theme_bw() + theme(panel.grid.major = element_blank(), panel.grid.min
 ww <- ww + theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = 0, size = 8))
 print(ww)
 save_plot("analysis/output/ChickFledglingWlength.png", ww, base_aspect_ratio = 1.4, base_width = 6, bg = "transparent") # make room for figure legend)
+
+
+## Bootstrap for adult and fledgling mass during 2014 and 2016
+quantile(sample(x = na.omit(adw[which(adw$year == 2014 & adw$stage == 'adult'), 'bird_weight']), replace = T, size = 100000), probs = c(0.025, 0.975))
+quantile(sample(x = na.omit(adw[which(adw$year == 2016 & adw$stage == 'adult'), 'bird_weight']), replace = T, size = 100000), probs = c(0.025, 0.975))
+quantile(sample(x = na.omit(adw[which(adw$year == 2014 & adw$stage == 'fledgling'), 'bird_weight']), replace = T, size = 100000), probs = c(0.025, 0.975))
+quantile(sample(x = na.omit(adw[which(adw$year == 2016 & adw$stage == 'fledgling'), 'bird_weight']), replace = T, size = 100000), probs = c(0.025, 0.975))
+
+
+
+
