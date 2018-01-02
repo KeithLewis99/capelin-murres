@@ -11,7 +11,7 @@ dyn.load("inst/fit")
 source("R/fit.R")
 
 ############################
-### COD CONDITION DATA#########
+### COMU CONDITION DATA#########
 ############################
 
 ## read data ----
@@ -81,6 +81,7 @@ g <- g + xlab("Year") + ylab("Condition (g/cm)")
 g <- g + facet_grid(stage ~ ., scales = "free")
 g <- g + theme_bw() + theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank())
 g <- g + theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = 0, size = 8))
+g <- g + ylim(2,7)
 print(g)
 save_plot("analysis/output/ChickFledglingCondition.png", g, base_aspect_ratio = 1.4, base_width = 6, bg = "transparent") # make room for figure legend)
 
