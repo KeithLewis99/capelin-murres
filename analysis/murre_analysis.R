@@ -61,13 +61,13 @@ adult_model <- fit_model(
   year = adw$year[!is.na(adw$bird_weight)],
   response = adw$bird_weight[!is.na(adw$bird_weight)] / 1000
 )
-plot_model(adult_model, ylab = "Body weight (g)", scale = 1000)
+plot_model(adult_model, ylab = "Mass (g)", scale = 1000)
 ggsave("analysis/output/adult_mass_trend.png", height = 5, width = 7)
 get_beta(adult_model) * 1000
 
 
 ## Chick and fledgling condition ----
-flc <- filter(cc, stage != "adult" & year > 1990) %>%
+flc <- filter(cc, stage != "adult" & year >= 1980) %>%
   select(year, condition, stage)
 y <- 1990:2017
 flc <- rbind(flc, data.frame(year = y[which(!y %in% sort(as.integer(unique(flc$year))))], condition = NA, stage = "chick"))
@@ -86,6 +86,19 @@ g <- g + ylim(2,7)
 print(g)
 save_plot("analysis/output/ChickFledglingCondition.png", g, base_aspect_ratio = 1.4, base_width = 6, bg = "transparent") # make room for figure legend)
 
+
+dodge <- position_dodge(width = 1)
+g <- ggplot(flc, aes(as.factor(year), condition, fill = stage)) +
+  geom_violin(position = dodge, draw_quantiles = 0.5) +
+  #geom_boxplot(width = 0.1, outlier.colour = "grey", outlier.size = 0, position = dodge) +
+  theme_bw() + xlab("Year") + ylab("Condition (g/cm)") +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = 0, size = 8))
+save_plot("analysis/output/ChickFledglingCondition_dodge.png", g, 
+          base_aspect_ratio = 1.4, base_width = 8, bg = "transparent",
+          dpi = 600)
+
+
+
 chick_cond <- na.omit(flc[flc$stage == "chick", ])
 chick_cond %>%
   group_by(year) %>%
@@ -93,7 +106,7 @@ chick_cond %>%
 chick_cond <- chick_cond[chick_cond$year != 1998, ] # drop 98 because of low sample size
 chick_model <- fit_model(year = chick_cond$year, response = chick_cond$condition)
 chick_model$sd_rep # not happy. too short of a time series??
-plot_model(chick_model, ylab = "Body weight (g)", scale = 1)
+plot_model(chick_model, ylab = "Condition (g/cm)", scale = 1)
 
 fledg_cond <- na.omit(flc[flc$stage == "fledgling", ])
 fledg_cond %>%
@@ -106,6 +119,13 @@ plot_model(fledg_model, ylab = "Condition (g/cm)", scale = 1)
 get_beta(fledg_model)
 ggsave("analysis/output/fledgling_condition_trend.png", height = 5, width = 7)
 
+fledg_model <- fit_model(year = fledg_cond$year, response = fledg_cond$bird_weight / 100)
+fledg_model$sd_rep
+plot_model(fledg_model, ylab = "Mass (g)", scale = 100)
+get_beta(fledg_model) * 100
+ggsave("analysis/output/fledgling_mass_trend.png", height = 5, width = 7) # key figure
+
+
 fc_cond <- na.omit(flc)
 fc_cond %>%
   group_by(year) %>%
@@ -114,11 +134,16 @@ fc_model <- fit_model(year = fc_cond$year, response = fc_cond$condition)
 fc_model$sd_rep
 plot_model(fc_model, ylab = "Condition (g/cm)", scale = 1)
 get_beta(fc_model)
-ggsave("analysis/output/combined_chick_condition_trend.png", height = 5, width = 7)
+#ggsave("analysis/output/combined_chick_condition_trend.png", height = 5, width = 7)
+## not comfortable with this analysis because the chick data appear to be driving the trend
+## ...and the gradual nature of the trend does not make biological sense.
+## our hypothesis is that chick condition would drop under reduced capelin abundance
+## abundance reduced in the early 90's, yet the pattern in condition does not reflect this on/off change
+
 
 
 ## Chick and fledgling weight ----
-flc <- filter(cc, stage != "adult" & year > 1990) %>%
+flc <- filter(cc, stage != "adult") %>%
   select(year, condition, stage, bird_weight)
 y <- 1990:2017
 flc <- rbind(flc, data.frame(year = y[which(!y %in% sort(as.integer(unique(flc$year))))], condition = NA, stage = "chick", bird_weight = NA))
@@ -132,10 +157,11 @@ w <- w + xlab("Year") + ylab("Weight (g)")
 w <- w + facet_grid(stage ~ ., scales = "free")
 w <- w + theme_bw() + theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank())
 w <- w + theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = 0, size = 8))
+print(w)
 save_plot("analysis/output/ChickFledglingWeight.png", w, base_aspect_ratio = 1.4, base_width = 6, bg = "transparent") # make room for figure legend)
 
 ## Chick and fledgling wing length ----
-wl <- filter(cc, stage != "adult" & year > 1990) %>%
+wl <- filter(cc, stage != "adult") %>%
   select(year, stage, winglength)
 y <- 1990:2017
 wl <- rbind(wl, data.frame(year = y[which(!y %in% sort(as.integer(unique(wl$year))))], stage = "chick", winglength = NA))

@@ -1,0 +1,1037 @@
+species,stage,rec,band_number,colony,year,date,winglength,bird_bag_weight,bag_weight,bird_weight,bridled,tarsus_length,culmen_length,logger,avian_flu,capture,WetDry,comments
+COMU,chick,1,846-56332,Funk,1991,14-Aug-91,53,,,220,,,,,,round up,,
+COMU,chick,2,846-56333,Funk,1991,14-Aug-91,48,,,225,,,,,,round up,,
+COMU,chick,3,846-56334,Funk,1991,14-Aug-91,54,,,200,,,,,,round up,,
+COMU,chick,4,846-56335,Funk,1991,14-Aug-91,36,,,190,,,,,,round up,,
+COMU,chick,5,846-56336,Funk,1991,14-Aug-91,55,,,200,,,,,,round up,,
+COMU,chick,6,846-56337,Funk,1991,14-Aug-91,58,,,205,,,,,,round up,,egg tooth
+COMU,chick,7,846-56338,Funk,1991,14-Aug-91,57,,200,195,,,,,,round up,,
+COMU,chick,8,846-56339,Funk,1991,14-Aug-91,55,,195,190,,,,,,round up,,
+COMU,chick,9,846-56340,Funk,1991,14-Aug-91,57,,220,215,,,,,,round up,,
+COMU,chick,10,846-56341,Funk,1991,14-Aug-91,61,,235,230,,,,,,round up,,
+COMU,chick,11,846-56342,Funk,1991,14-Aug-91,27,,188,84,,,,,,round up,,egg tooth
+COMU,chick,12,,Funk,1991,14-Aug-91,63,,,195,,,,,,round up,,
+COMU,chick,13,,Funk,1991,14-Aug-91,36,,,140,,,,,,round up,,
+COMU,chick,14,,Funk,1991,14-Aug-91,44,,,165,,,,,,round up,,
+COMU,chick,15,,Funk,1991,14-Aug-91,38,,,165,,,,,,round up,,
+COMU,chick,16,,Funk,1991,14-Aug-91,44,,,170,,,,,,round up,,
+COMU,chick,17,,Funk,1991,14-Aug-91,31,,,105,,,,,,round up,,egg tooth
+COMU,chick,18,,Funk,1991,14-Aug-91,38,,,135,,,,,,round up,,egg tooth
+COMU,chick,19,,Funk,1991,14-Aug-91,46,,,165,,,,,,round up,,
+COMU,chick,20,,Funk,1991,14-Aug-91,31,,120,115,,,,,,round up,,egg tooth
+COMU,chick,21,,Funk,1991,14-Aug-91,47,,150,145,,,,,,round up,,
+COMU,chick,22,,Funk,1991,14-Aug-91,29,,120,115,,,,,,round up,,
+COMU,chick,23,,Funk,1991,14-Aug-91,55,,195,190,,,,,,round up,,
+COMU,chick,24,,Funk,1991,14-Aug-91,46,,195,190,,,,,,round up,,
+COMU,chick,25,,Funk,1991,14-Aug-91,27,,61,57,,,,,,round up,,
+COMU,chick,26,,Funk,1991,14-Aug-91,34,,165,160,,,,,,round up,,egg tooth
+COMU,chick,27,,Funk,1991,14-Aug-91,36,,150,145,,,,,,round up,,egg tooth
+COMU,chick,28,,Funk,1991,14-Aug-91,54,,185,180,,,,,,round up,,egg tooth
+COMU,chick,29,,Funk,1991,14-Aug-91,36,,170,165,,,,,,round up,,egg tooth
+COMU,chick,30,,Funk,1991,14-Aug-91,38,,165,160,,,,,,round up,,egg tooth
+COMU,chick,31,,Funk,1991,14-Aug-91,50,,140,135,,,,,,round up,,egg tooth
+COMU,chick,32,,Funk,1991,14-Aug-91,37,,140,135,,,,,,round up,,bit of egg tooth
+COMU,chick,33,,Funk,1991,14-Aug-91,53,,200,195,,,,,,round up,,bit of egg tooth
+COMU,chick,34,,Funk,1991,14-Aug-91,38,,150,145,,,,,,round up,,egg tooth
+COMU,chick,35,,Funk,1991,14-Aug-91,37,,135,130,,,,,,round up,,egg tooth
+COMU,chick,36,,Funk,1991,14-Aug-91,52,,170,165,,,,,,round up,,bit of egg tooth
+COMU,chick,37,,Funk,1991,14-Aug-91,40,,200,195,,,,,,round up,,
+COMU,chick,38,,Funk,1991,14-Aug-91,38,,160,155,,,,,,round up,,no egg tooth
+COMU,chick,39,,Funk,1991,14-Aug-91,31,,115,110,,,,,,round up,,egg tooth
+COMU,chick,40,,Funk,1991,14-Aug-91,24,,63,59,,,,,,round up,,egg tooth
+COMU,chick,1,,Funk,1992,7-Aug-92,29,,93,83,,,,,,round up,,muddy
+COMU,chick,2,,Funk,1992,7-Aug-92,39,,181,171,,,,,,round up,,"Bill M. and Pierre R., comparing measurements"
+COMU,chick,3,,Funk,1992,7-Aug-92,46,,207,197,,,,,,round up,,
+COMU,chick,4,,Funk,1992,7-Aug-92,48,,185,175,,,,,,round up,,
+COMU,chick,5,,Funk,1992,7-Aug-92,29,,130,120,,,,,,round up,,
+COMU,chick,6,,Funk,1992,7-Aug-92,29,,112,102,,,,,,round up,,muddy
+COMU,chick,7,,Funk,1992,7-Aug-92,25,,109,99,,,,,,round up,,muddy
+COMU,chick,8,,Funk,1992,7-Aug-92,32,,184,174,,,,,,round up,,muddy
+COMU,chick,9,,Funk,1992,7-Aug-92,27,,82,72,,,,,,round up,,muddy
+COMU,chick,10,,Funk,1992,7-Aug-92,29,,108,98,,,,,,round up,,muddy
+COMU,chick,11,,Funk,1992,7-Aug-92,39,,170,160,,,,,,round up,,muddy
+COMU,chick,12,,Funk,1992,7-Aug-92,46,,187,177,,,,,,round up,,muddy
+COMU,chick,13,,Funk,1992,7-Aug-92,59,,228,218,,,,,,round up,,muddy
+COMU,chick,14,,Funk,1992,7-Aug-92,47,,187,177,,,,,,round up,,muddy
+COMU,chick,15,,Funk,1992,7-Aug-92,24,,97,87,,,,,,round up,,muddy
+COMU,chick,16,,Funk,1992,7-Aug-92,27,,99,89,,,,,,round up,,muddy
+COMU,chick,17,,Funk,1992,7-Aug-92,19,,62,52,,,,,,round up,,muddy
+COMU,chick,18,,Funk,1992,7-Aug-92,55,,222,212,,,,,,round up,,
+COMU,chick,19,,Funk,1992,7-Aug-92,25,,99,89,,,,,,round up,,"clean;deformed beak, 1 eye (left missing), lower mandible curved slightly left"
+COMU,chick,20,,Funk,1992,7-Aug-92,27,,125,115,,,,,,round up,,
+COMU,chick,21,,Funk,1992,7-Aug-92,45,,204,194,,,,,,round up,,clean
+COMU,chick,22,,Funk,1992,7-Aug-92,48,,204,194,,,,,,round up,,
+COMU,chick,23,,Funk,1992,7-Aug-92,28,,191,181,,,,,,round up,,
+COMU,chick,24,,Funk,1992,7-Aug-92,49,,259,249,,,,,,round up,,
+COMU,chick,25,,Funk,1992,7-Aug-92,27,,100,90,,,,,,round up,,
+COMU,chick,26,,Funk,1992,7-Aug-92,41,,179,169,,,,,,round up,,
+COMU,chick,27,,Funk,1992,7-Aug-92,54,,208,198,,,,,,round up,,
+COMU,chick,28,,Funk,1992,7-Aug-92,47,,,,,,,,,round up,,
+COMU,chick,29,,Funk,1992,7-Aug-92,,,,,,,,,,round up,,
+COMU,chick,30,,Funk,1992,7-Aug-92,,,,,,,,,,round up,,
+COMU,chick,31,,Funk,1992,7-Aug-92,,,,,,,,,,round up,,
+COMU,chick,32,,Funk,1992,7-Aug-92,,,,,,,,,,round up,,
+COMU,chick,33,,Funk,1992,7-Aug-92,,,,,,,,,,round up,,
+COMU,chick,34,,Funk,1992,7-Aug-92,,,,,,,,,,round up,,
+COMU,chick,35,,Funk,1992,7-Aug-92,,,,,,,,,,round up,,
+COMU,chick,36,,Funk,1992,7-Aug-92,,,,,,,,,,round up,,
+COMU,chick,37,,Funk,1992,7-Aug-92,,,,,,,,,,round up,,clean
+COMU,chick,1,,Funk,1993,11-Aug-93,67,,230,200,,,,,,round up,,J
+COMU,chick,2,,Funk,1993,11-Aug-93,39,,238,208,,,,,,round up,,B
+COMU,chick,3,,Funk,1993,11-Aug-93,51,,215,185,,,,,,round up,,B
+COMU,chick,4,,Funk,1993,11-Aug-93,54,,214,184,,,,,,round up,,J
+COMU,chick,5,,Funk,1993,11-Aug-93,56,,227,197,,,,,,round up,,J
+COMU,chick,6,,Funk,1993,11-Aug-93,26,,110,80,,,,,,round up,,J
+COMU,chick,7,,Funk,1993,11-Aug-93,31,,184,154,,,,,,round up,,J
+COMU,chick,8,,Funk,1993,11-Aug-93,31,,165,135,,,,,,round up,,J
+COMU,chick,9,,Funk,1993,11-Aug-93,63,,221,191,,,,,,round up,,J
+COMU,chick,10,,Funk,1993,11-Aug-93,67,,278,248,,,,,,round up,,J
+COMU,chick,11,,Funk,1993,11-Aug-93,24,,132,102,,,,,,round up,,J
+COMU,chick,12,,Funk,1993,11-Aug-93,36,,202,172,,,,,,round up,,J
+COMU,chick,13,,Funk,1993,11-Aug-93,25,,98,68,,,,,,round up,,J
+COMU,chick,14,,Funk,1993,11-Aug-93,29,,136,106,,,,,,round up,,J
+COMU,chick,15,,Funk,1993,11-Aug-93,37,,242,212,,,,,,round up,,J
+COMU,chick,16,,Funk,1993,11-Aug-93,59,,229,199,,,,,,round up,,J
+COMU,chick,17,,Funk,1993,11-Aug-93,25,,105,75,,,,,,round up,,B
+COMU,chick,18,,Funk,1993,11-Aug-93,30,,175,145,,,,,,round up,,J
+COMU,chick,19,,Funk,1993,11-Aug-93,25,,102,72,,,,,,round up,,B
+COMU,chick,20,,Funk,1993,11-Aug-93,41,,149,119,,,,,,round up,,J
+COMU,chick,21,,Funk,1993,11-Aug-93,54,,250,220,,,,,,round up,,B
+COMU,chick,22,,Funk,1993,11-Aug-93,37,,178,148,,,,,,round up,,B
+COMU,chick,23,,Funk,1993,11-Aug-93,45,,210,180,,,,,,round up,,J
+COMU,chick,24,,Funk,1993,11-Aug-93,31,,174,144,,,,,,round up,,J
+COMU,chick,25,,Funk,1993,11-Aug-93,45,,208,178,,,,,,round up,,B
+COMU,chick,26,,Funk,1993,11-Aug-93,47,,212,182,,,,,,round up,,J
+COMU,chick,27,,Funk,1993,11-Aug-93,49,,234,204,,,,,,round up,,B
+COMU,chick,28,,Funk,1993,11-Aug-93,31,,112,82,,,,,,round up,,B
+COMU,chick,29,,Funk,1993,11-Aug-93,30,,186,156,,,,,,round up,,B
+COMU,chick,30,,Funk,1993,11-Aug-93,32,,168,138,,,,,,round up,,B
+COMU,chick,31,,Funk,1993,11-Aug-93,64,,233,203,,,,,,round up,,B
+COMU,chick,32,,Funk,1993,11-Aug-93,64,,284,254,,,,,,round up,,B
+COMU,chick,33,,Funk,1993,11-Aug-93,28,,138,108,,,,,,round up,,B
+COMU,chick,34,,Funk,1993,11-Aug-93,37,,203,173,,,,,,round up,,B
+COMU,chick,35,,Funk,1993,11-Aug-93,26,,98,68,,,,,,round up,,B
+COMU,chick,36,,Funk,1993,11-Aug-93,29,,142,112,,,,,,round up,,B
+COMU,chick,37,,Funk,1993,11-Aug-93,25,,112,82,,,,,,round up,,B
+COMU,chick,38,,Funk,1993,11-Aug-93,59,,197,167,,,,,,round up,,B
+COMU,chick,39,,Funk,1993,11-Aug-93,27,,95,65,,,,,,round up,,B
+COMU,chick,40,,Funk,1993,11-Aug-93,28,,152,122,,,,,,round up,,B
+COMU,chick,41,,Funk,1993,11-Aug-93,24,,110,80,,,,,,round up,,B
+COMU,chick,42,,Funk,1993,11-Aug-93,27,,100,70,,,,,,round up,,B
+COMU,chick,43,,Funk,1993,11-Aug-93,30,,156,126,,,,,,round up,,B
+COMU,chick,1,,Funk,1994,15-Aug-94,60,,,225,,,,,,round up,,
+COMU,chick,2,,Funk,1994,15-Aug-94,28,,,95,,,,,,round up,,bud
+COMU,chick,3,,Funk,1994,15-Aug-94,51,,,155,,,,,,round up,,
+COMU,chick,4,,Funk,1994,15-Aug-94,33,,,105,,,,,,round up,,
+COMU,chick,5,,Funk,1994,15-Aug-94,66,,,175,,,,,,round up,,
+COMU,chick,6,,Funk,1994,15-Aug-94,54,,,165,,,,,,round up,,
+COMU,chick,7,,Funk,1994,15-Aug-94,49,,,165,,,,,,round up,,
+COMU,chick,8,,Funk,1994,15-Aug-94,54,,,160,,,,,,round up,,
+COMU,chick,9,,Funk,1994,15-Aug-94,56,,,180,,,,,,round up,,
+COMU,chick,10,,Funk,1994,15-Aug-94,66,,,160,,,,,,round up,,
+COMU,chick,11,,Funk,1994,15-Aug-94,53,,,145,,,,,,round up,,
+COMU,chick,12,,Funk,1994,15-Aug-94,47,,,150,,,,,,round up,,
+COMU,chick,13,,Funk,1994,15-Aug-94,55,,,170,,,,,,round up,,
+COMU,chick,14,,Funk,1994,15-Aug-94,55,,,190,,,,,,round up,,
+COMU,chick,15,,Funk,1994,15-Aug-94,35,,,175,,,,,,round up,,
+COMU,chick,16,,Funk,1994,15-Aug-94,45,,,145,,,,,,round up,,
+COMU,chick,17,,Funk,1994,15-Aug-94,61,,,190,,,,,,round up,,
+COMU,chick,18,,Funk,1994,15-Aug-94,55,,,155,,,,,,round up,,
+COMU,chick,19,,Funk,1994,15-Aug-94,43,,,140,,,,,,round up,,
+COMU,chick,20,,Funk,1994,15-Aug-94,45,,,135,,,,,,round up,,
+COMU,chick,21,,Funk,1994,15-Aug-94,46,,,145,,,,,,round up,,
+COMU,chick,22,,Funk,1994,15-Aug-94,40,,,130,,,,,,round up,,
+COMU,chick,23,,Funk,1994,15-Aug-94,43,,,120,,,,,,round up,,
+COMU,chick,24,,Funk,1994,15-Aug-94,28,,,100,,,,,,round up,,bud
+COMU,chick,25,,Funk,1994,15-Aug-94,25,,,75,,,,,,round up,,bud
+COMU,chick,26,,Funk,1994,15-Aug-94,27,,,75,,,,,,round up,,bud
+COMU,chick,27,,Funk,1994,15-Aug-94,25,,,80,,,,,,round up,,bud
+COMU,chick,28,,Funk,1994,15-Aug-94,25,,,60,,,,,,round up,,bud
+COMU,chick,1,,Funk,1995,8-Aug-95,68,,215,204,,,,,,round up,,"in the field notebook this first mass entry is written as 215-11=204, the remaining records do not indicate"
+COMU,chick,2,,Funk,1995,8-Aug-95,62,,237,226,,,,,,round up,,a subtraction of 11 g. I'm not sure if 11 g (bag weight) is already subtracted or not.
+COMU,chick,3,,Funk,1995,8-Aug-95,68,,232,221,,,,,,round up,,
+COMU,chick,4,,Funk,1995,8-Aug-95,72,,195,184,,,,,,round up,,
+COMU,chick,5,,Funk,1995,8-Aug-95,58,,215,204,,,,,,round up,,
+COMU,chick,6,,Funk,1995,8-Aug-95,59,,212,201,,,,,,round up,,
+COMU,chick,7,,Funk,1995,8-Aug-95,52,,173,162,,,,,,round up,,
+COMU,chick,8,,Funk,1995,8-Aug-95,71,,256,245,,,,,,round up,,
+COMU,chick,9,,Funk,1995,8-Aug-95,25,,75,64,,,,,,round up,,
+COMU,chick,10,,Funk,1995,8-Aug-95,47,,205,194,,,,,,round up,,
+COMU,chick,11,,Funk,1995,8-Aug-95,56,,201,190,,,,,,round up,,
+COMU,chick,12,,Funk,1995,8-Aug-95,52,,192,181,,,,,,round up,,
+COMU,chick,13,,Funk,1995,8-Aug-95,55,,185,174,,,,,,round up,,
+COMU,chick,14,,Funk,1995,8-Aug-95,28,,114,103,,,,,,round up,,
+COMU,chick,15,,Funk,1995,8-Aug-95,53,,203,192,,,,,,round up,,
+COMU,chick,16,,Funk,1995,8-Aug-95,83,,246,235,,,,,,round up,,
+COMU,chick,17,,Funk,1995,8-Aug-95,25,,137,126,,,,,,round up,,
+COMU,chick,18,,Funk,1995,8-Aug-95,58,,179,168,,,,,,round up,,
+COMU,chick,19,,Funk,1995,8-Aug-95,49,,169,158,,,,,,round up,,
+COMU,chick,20,,Funk,1995,8-Aug-95,57,,201,190,,,,,,round up,,
+COMU,chick,21,,Funk,1995,8-Aug-95,34,,145,134,,,,,,round up,,
+COMU,chick,22,,Funk,1995,8-Aug-95,60,,183,172,,,,,,round up,,
+COMU,chick,23,,Funk,1995,8-Aug-95,27,,113,102,,,,,,round up,,
+COMU,chick,24,,Funk,1995,8-Aug-95,60,,175,164,,,,,,round up,,
+COMU,chick,25,,Funk,1995,8-Aug-95,45,,129,118,,,,,,round up,,
+COMU,chick,26,,Funk,1995,8-Aug-95,51,,193,182,,,,,,round up,,
+COMU,chick,27,,Funk,1995,8-Aug-95,59,,208,197,,,,,,round up,,
+COMU,chick,28,,Funk,1995,8-Aug-95,51,,203,192,,,,,,round up,,
+COMU,chick,29,,Funk,1995,8-Aug-95,29,,99,88,,,,,,round up,,
+COMU,chick,30,,Funk,1995,8-Aug-95,25,,64,53,,,,,,round up,,
+COMU,chick,31,,Funk,1995,8-Aug-95,32,,115,104,,,,,,round up,,
+COMU,chick,32,,Funk,1995,8-Aug-95,38,,141,130,,,,,,round up,,
+COMU,chick,33,,Funk,1995,8-Aug-95,45,,159,148,,,,,,round up,,
+COMU,chick,34,,Funk,1995,8-Aug-95,35,,149,138,,,,,,round up,,
+COMU,chick,35,,Funk,1995,8-Aug-95,28,,119,108,,,,,,round up,,
+COMU,chick,36,,Funk,1995,8-Aug-95,63,,214,203,,,,,,round up,,
+COMU,chick,37,,Funk,1995,8-Aug-95,25,,69,58,,,,,,round up,,
+COMU,chick,38,,Funk,1995,8-Aug-95,34,,113,102,,,,,,round up,,
+COMU,chick,39,,Funk,1995,8-Aug-95,58,,194,183,,,,,,round up,,
+COMU,chick,40,,Funk,1995,8-Aug-95,51,,202,191,,,,,,round up,,
+COMU,chick,41,,Funk,1995,8-Aug-95,26,,94,83,,,,,,round up,,
+COMU,chick,1,,Funk,1997,7-Aug-97,54,,,164,,,,,,round up,,
+COMU,chick,2,,Funk,1997,7-Aug-97,56,,,137,,,,,,round up,,
+COMU,chick,3,,Funk,1997,7-Aug-97,36,,,118,,,,,,round up,,
+COMU,chick,4,,Funk,1997,7-Aug-97,39,,,158,,,,,,round up,,
+COMU,chick,5,,Funk,1997,7-Aug-97,36,,,124,,,,,,round up,,
+COMU,chick,6,,Funk,1997,7-Aug-97,61,,,180,,,,,,round up,,
+COMU,chick,7,,Funk,1997,7-Aug-97,30,,,93,,,,,,round up,,
+COMU,chick,8,,Funk,1997,7-Aug-97,,,,190,,,,,,round up,,
+COMU,chick,9,,Funk,1997,7-Aug-97,27,,,90,,,,,,round up,,
+COMU,chick,10,,Funk,1997,7-Aug-97,41,,,184,,,,,,round up,,
+COMU,chick,11,,Funk,1997,7-Aug-97,47,,,172,,,,,,round up,,
+COMU,chick,12,,Funk,1997,7-Aug-97,37,,,136,,,,,,round up,,
+COMU,chick,13,,Funk,1997,7-Aug-97,36,,,146,,,,,,round up,,
+COMU,chick,14,,Funk,1997,7-Aug-97,58,,,168,,,,,,round up,,
+COMU,chick,15,,Funk,1997,7-Aug-97,42,,,146,,,,,,round up,,
+COMU,chick,16,,Funk,1997,7-Aug-97,46,,,150,,,,,,round up,,
+COMU,chick,17,,Funk,1997,7-Aug-97,36,,,118,,,,,,round up,,
+COMU,chick,18,,Funk,1997,7-Aug-97,43,,,167,,,,,,round up,,
+COMU,chick,19,,Funk,1997,7-Aug-97,45,,,124,,,,,,round up,,
+COMU,chick,20,,Funk,1997,7-Aug-97,49,,,144,,,,,,round up,,
+COMU,chick,21,,Funk,1997,7-Aug-97,46,,,145,,,,,,round up,,
+COMU,chick,22,,Funk,1997,7-Aug-97,31,,,106,,,,,,round up,,
+COMU,chick,23,,Funk,1997,7-Aug-97,28,,,90,,,,,,round up,,
+COMU,chick,24,,Funk,1997,7-Aug-97,35,,,113,,,,,,round up,,
+COMU,chick,38,,Funk,1998,15-Aug-98,48,,,225,,,,,,round up,,
+COMU,chick,39,,Funk,1998,15-Aug-98,58,,,205,,,,,,round up,,
+COMU,chick,40,,Funk,1998,15-Aug-98,38,,,170,,,,,,round up,,
+COMU,chick,41,,Funk,1998,15-Aug-98,38,,,175,,,,,,round up,,
+COMU,fledgling,1,,Funk,1980,30-Jul-80,60,,,130,,,,,, dip net,,touch of white over eye
+COMU,fledgling,2,,Funk,1980,30-Jul-80,65,,,135,,,,,, dip net,,touch of white over eye
+COMU,fledgling,3,,Funk,1980,30-Jul-80,50,,,110,,,,,, dip net,,touch of white over eye
+COMU,fledgling,4,,Funk,1980,30-Jul-80,55,,,110,,,,,, dip net,,touch of white over eye
+COMU,fledgling,5,,Funk,1980,30-Jul-80,52,,,175,,,,,, dip net,,no white
+COMU,fledgling,6,,Funk,1980,30-Jul-80,58,,,133,,,,,, dip net,,no white
+COMU,fledgling,7,,Funk,1980,30-Jul-80,47,,,167,,,,,, dip net,,
+COMU,fledgling,8,,Funk,1980,30-Jul-80,57,,,210,,,,,, dip net,,slight white
+COMU,fledgling,9,,Funk,1980,30-Jul-80,61,,,199,,,,,, dip net,,white
+COMU,fledgling,10,,Funk,1980,30-Jul-80,48,,,170,,,,,, dip net,,
+COMU,fledgling,11,,Funk,1980,30-Jul-80,51,,,110,,,,,, dip net,,white
+COMU,fledgling,12,,Funk,1980,30-Jul-80,45,,,110,,,,,, dip net,,
+COMU,fledgling,13,,Funk,1980,30-Jul-80,70,,,145,,,,,, dip net,,
+COMU,fledgling,14,,Funk,1980,30-Jul-80,81,,,150,,,,,, dip net,,dead
+COMU,fledgling,15,,Funk,1980,30-Jul-80,67,,,150,,,,,, dip net,,dead
+COMU,fledgling,16,,Funk,1980,30-Jul-80,55,,,145,,,,,, dip net,,no white
+COMU,fledgling,17,,Funk,1980,30-Jul-80,37,,,110,,,,,, dip net,,no white
+COMU,fledgling,18,,Funk,1980,31-Jul-80,60,,,175,,,,,, dip net,,no white
+COMU,fledgling,19,,Funk,1980,31-Jul-80,52,,,168,,,,,, dip net,,slight white
+COMU,fledgling,20,,Funk,1980,31-Jul-80,56,,,160,,,,,, dip net,,slight white
+COMU,fledgling,21,,Funk,1980,31-Jul-80,41,,,127,,,,,, dip net,,white
+COMU,fledgling,22,,Funk,1980,31-Jul-80,31,,,155,,,,,, dip net,,no white
+COMU,fledgling,23,,Funk,1980,31-Jul-80,40,,,130,,,,,, dip net,,no white
+COMU,fledgling,24,,Funk,1980,31-Jul-80,39,,,81,,,,,, dip net,,no white
+COMU,fledgling,25,,Funk,1980,31-Jul-80,34,,,99,,,,,, dip net,,no white
+COMU,fledgling,26,,Funk,1980,31-Jul-80,38,,,100,,,,,, dip net,,slight white
+COMU,fledgling,27,,Funk,1980,1-Aug-80,70,,,170,,,,,, dip net,,
+COMU,fledgling,28,,Funk,1980,1-Aug-80,56,,,140,,,,,, dip net,,
+COMU,fledgling,29,,Funk,1980,1-Aug-80,58,,,150,,,,,, dip net,,
+COMU,fledgling,30,,Funk,1980,1-Aug-80,40,,,165,,,,,, dip net,,
+COMU,fledgling,31,,Funk,1980,1-Aug-80,77,,,185,,,,,, dip net,,
+COMU,fledgling,32,,Funk,1980,1-Aug-80,55,,,145,,,,,, dip net,,
+COMU,fledgling,33,,Funk,1980,1-Aug-80,74,,,210,,,,,, dip net,,
+COMU,fledgling,34,,Funk,1980,2-Aug-80,72,,,175,,,,,, dip net,,
+COMU,fledgling,35,,Funk,1980,2-Aug-80,55,,,135,,,,,, dip net,,no white
+COMU,fledgling,36,,Funk,1980,2-Aug-80,58,,,180,,,,,, dip net,,slight white
+COMU,fledgling,37,,Funk,1980,2-Aug-80,45,,,120,,,,,, dip net,,slight white
+COMU,fledgling,38,,Funk,1980,2-Aug-80,59,,,115,,,,,, dip net,,no white
+COMU,fledgling,39,,Funk,1980,2-Aug-80,76,,,170,,,,,, dip net,,slight white
+COMU,fledgling,40,,Funk,1980,2-Aug-80,57,,,170,,,,,, dip net,,slight white
+COMU,fledgling,41,,Funk,1980,2-Aug-80,75,,,140,,,,,, dip net,,slight white
+COMU,fledgling,42,,Funk,1980,2-Aug-80,32,,,115,,,,,, dip net,,
+COMU,fledgling,43,,Funk,1980,2-Aug-80,47,,,160,,,,,, dip net,,
+COMU,fledgling,44,,Funk,1980,3-Aug-80,50,,,140,,,,,, dip net,,slight white
+COMU,fledgling,45,,Funk,1980,3-Aug-80,55,,,215,,,,,, dip net,,white
+COMU,fledgling,46,,Funk,1980,3-Aug-80,55,,,155,,,,,, dip net,,white
+COMU,fledgling,47,,Funk,1980,3-Aug-80,49,,,140,,,,,, dip net,,slight white
+COMU,fledgling,48,,Funk,1980,3-Aug-80,49,,,155,,,,,, dip net,,
+COMU,fledgling,49,,Funk,1980,3-Aug-80,55,,,155,,,,,, dip net,,
+COMU,fledgling,50,,Funk,1980,3-Aug-80,45,,,165,,,,,, dip net,,slight white
+COMU,fledgling,51,,Funk,1980,3-Aug-80,51,,,130,,,,,, dip net,,slight white
+COMU,fledgling,52,,Funk,1980,3-Aug-80,56,,,180,,,,,, dip net,,white
+COMU,fledgling,53,,Funk,1980,3-Aug-80,56,,,170,,,,,, dip net,,
+COMU,fledgling,54,,Funk,1980,6-Aug-80,43,,,125,,,,,, dip net,,slight white
+COMU,fledgling,55,,Funk,1980,6-Aug-80,50,,,140,,,,,, dip net,,black
+COMU,fledgling,56,,Funk,1980,6-Aug-80,47,,,165,,,,,, dip net,,
+COMU,fledgling,57,,Funk,1980,6-Aug-80,44,,,135,,,,,, dip net,,black
+COMU,fledgling,58,,Funk,1980,6-Aug-80,36,,,115,,,,,, dip net,,
+COMU,fledgling,59,,Funk,1980,6-Aug-80,58,,,185,,,,,, dip net,,slight white
+COMU,fledgling,60,,Funk,1980,6-Aug-80,45,,,155,,,,,, dip net,,slight white
+COMU,fledgling,61,,Funk,1980,6-Aug-80,59,,,185,,,,,, dip net,,slight white
+COMU,fledgling,62,,Funk,1980,8-Aug-80,25,,,65,,,,,, dip net,,black
+COMU,fledgling,63,,Funk,1980,8-Aug-80,46,,,180,,,,,, dip net,,slight white
+COMU,fledgling,64,,Funk,1980,8-Aug-80,58,,,170,,,,,, dip net,,white
+COMU,fledgling,65,,Funk,1980,8-Aug-80,39,,,120,,,,,, dip net,,black
+COMU,fledgling,66,,Funk,1980,8-Aug-80,55,,,165,,,,,, dip net,,slight white
+COMU,fledgling,67,,Funk,1980,8-Aug-80,47,,,125,,,,,, dip net,,slight white
+COMU,fledgling,68,,Funk,1980,8-Aug-80,47,,,143,,,,,, dip net,,slight white
+COMU,fledgling,69,,Funk,1980,8-Aug-80,51,,,195,,,,,, dip net,,
+COMU,fledgling,70,,Funk,1980,8-Aug-80,42,,,130,,,,,, dip net,,slight white
+COMU,fledgling,71,,Funk,1980,8-Aug-80,50,,,135,,,,,, dip net,,slight white
+COMU,fledgling,72,,Funk,1980,8-Aug-80,49,,,165,,,,,, dip net,,black
+COMU,fledgling,73,,Funk,1982,9-Aug-82,57,,,276,,,,,, dip net,,white
+COMU,fledgling,74,,Funk,1982,9-Aug-82,76,,,224,,,,,, dip net,,white
+COMU,fledgling,75,,Funk,1982,9-Aug-82,64,,,336,,,,,, dip net,,white
+COMU,fledgling,76,,Funk,1982,9-Aug-82,57,,,258,,,,,, dip net,,white
+COMU,fledgling,77,,Funk,1982,9-Aug-82,54,,,240,,,,,, dip net,,white
+COMU,fledgling,78,,Funk,1982,9-Aug-82,57,,,261,,,,,, dip net,,grey
+COMU,fledgling,79,,Funk,1982,9-Aug-82,64,,,232,,,,,, dip net,,white
+COMU,fledgling,80,,Funk,1982,9-Aug-82,64,,,255,,,,,, dip net,,white
+COMU,fledgling,81,,Funk,1982,9-Aug-82,64,,,225,,,,,, dip net,,white
+COMU,fledgling,82,,Funk,1982,9-Aug-82,55,,,245,,,,,, dip net,,white
+COMU,fledgling,83,,Funk,1982,9-Aug-82,61,,,247,,,,,, dip net,,white
+COMU,fledgling,84,,Funk,1982,9-Aug-82,62,,,247,,,,,, dip net,,grey
+COMU,fledgling,85,,Funk,1982,11-Aug-82,94,,,206,,,,,, dip net,,white
+COMU,fledgling,86,,Funk,1982,11-Aug-82,62,,,225,,,,,, dip net,,grey
+COMU,fledgling,87,,Funk,1982,11-Aug-82,55,,,240,,,,,, dip net,,grey
+COMU,fledgling,88,,Funk,1982,11-Aug-82,64,,,221,,,,,, dip net,,grey
+COMU,fledgling,89,,Funk,1982,11-Aug-82,45,,,222,,,,,, dip net,,grey
+COMU,fledgling,90,,Funk,1982,11-Aug-82,59,,,243,,,,,, dip net,,white
+COMU,fledgling,91,,Funk,1982,11-Aug-82,60,,,224,,,,,, dip net,,grey
+COMU,fledgling,92,,Funk,1982,11-Aug-82,44,,,193,,,,,, dip net,,grey
+COMU,fledgling,93,,Funk,1982,11-Aug-82,50,,,167,,,,,, dip net,,grey
+COMU,fledgling,94,,Funk,1982,11-Aug-82,63,,,240,,,,,, dip net,,grey
+COMU,fledgling,95,,Funk,1982,11-Aug-82,65,,,214,,,,,, dip net,,grey
+COMU,fledgling,96,,Funk,1982,11-Aug-82,47,,,184,,,,,, dip net,,grey
+COMU,fledgling,97,,Funk,1982,11-Aug-82,55,,,195,,,,,, dip net,,white
+COMU,fledgling,98,,Funk,1982,11-Aug-82,62,,,240,,,,,, dip net,,grey
+COMU,fledgling,99,,Funk,1982,11-Aug-82,67,,,247,,,,,, dip net,,white
+COMU,fledgling,100,,Funk,1982,11-Aug-82,38,,,185,,,,,, dip net,,dark grey
+COMU,fledgling,101,,Funk,1982,11-Aug-82,60,,,223,,,,,, dip net,,white
+COMU,fledgling,102,,Funk,1982,11-Aug-82,59,,,208,,,,,, dip net,,white
+COMU,fledgling,103,,Funk,1982,11-Aug-82,52,,,181,,,,,, dip net,,white
+COMU,fledgling,104,,Funk,1982,11-Aug-82,52,,,249,,,,,, dip net,,white
+COMU,fledgling,105,,Funk,1982,11-Aug-82,56,,,213,,,,,, dip net,,white
+COMU,fledgling,106,,Funk,1982,11-Aug-82,58,,,223,,,,,, dip net,,grey
+COMU,fledgling,107,,Funk,1982,11-Aug-82,37,,,116,,,,,, dip net,,black
+COMU,fledgling,108,,Funk,1982,11-Aug-82,37,,,259,,,,,, dip net,,grey
+COMU,fledgling,109,,Funk,1982,11-Aug-82,45,,,220,,,,,, dip net,,grey
+COMU,fledgling,110,,Funk,1982,11-Aug-82,48,,,164,,,,,, dip net,,grey
+COMU,fledgling,111,,Funk,1982,11-Aug-82,52,,,185,,,,,, dip net,,grey
+COMU,fledgling,112,,Funk,1982,11-Aug-82,56,,,226,,,,,, dip net,,grey
+COMU,fledgling,113,,Funk,1983,5-Aug-83,52,,,222,,,,,, dip net,,
+COMU,fledgling,114,,Funk,1983,5-Aug-83,56,,,173,,,,,, dip net,,
+COMU,fledgling,115,,Funk,1983,5-Aug-83,51,,,194,,,,,, dip net,,
+COMU,fledgling,116,,Funk,1983,5-Aug-83,53,,,204,,,,,, dip net,,
+COMU,fledgling,117,,Funk,1983,5-Aug-83,55,,,212,,,,,, dip net,,
+COMU,fledgling,118,,Funk,1983,5-Aug-83,45,,,163,,,,,, dip net,,
+COMU,fledgling,119,,Funk,1983,5-Aug-83,50,,,203,,,,,, dip net,,
+COMU,fledgling,120,,Funk,1983,8-Aug-83,61,,,237,,,,,, dip net,,
+COMU,fledgling,121,,Funk,1983,8-Aug-83,55,,,203,,,,,, dip net,,
+COMU,fledgling,122,,Funk,1983,8-Aug-83,56,,,196,,,,,, dip net,,
+COMU,fledgling,123,,Funk,1983,8-Aug-83,60,,,193,,,,,, dip net,,
+COMU,fledgling,124,,Funk,1983,8-Aug-83,40,,,159,,,,,, dip net,,
+COMU,fledgling,125,,Funk,1983,8-Aug-83,27,,,88,,,,,, dip net,,
+COMU,fledgling,126,,Funk,1983,8-Aug-83,57,,,180,,,,,, dip net,,
+COMU,fledgling,127,896-17302,Funk,1984,8-Aug-84,68,,,240,,28,,,, dip net,,300 g scale
+COMU,fledgling,128,896-17303,Funk,1984,8-Aug-84,62,,,238,,28,,,, dip net,,300 g scale
+COMU,fledgling,129,896-17304,Funk,1984,8-Aug-84,,,,284,,,,,, dip net,,300 g scale
+COMU,fledgling,130,896-17305,Funk,1984,8-Aug-84,40,,,174,,25,,,, dip net,,300 g scale
+COMU,fledgling,131,896-17306,Funk,1984,8-Aug-84,55,,,240,,26,,,, dip net,,300 g scale
+COMU,fledgling,132,896-17307,Funk,1984,8-Aug-84,67,,,258,,26,,,, dip net,,300 g scale
+COMU,fledgling,133,896-17308,Funk,1984,8-Aug-84,60,,,208,,27,,,, dip net,,300 g scale
+COMU,fledgling,134,896-17309,Funk,1984,8-Aug-84,78,,,265,,33,,,, dip net,,500 g scale
+COMU,fledgling,135,,Funk,1984,12-Aug-84,89,,,251,,,,,, dip net,,500 g scale
+COMU,fledgling,136,,Funk,1984,12-Aug-84,52,,,208,,,,,, dip net,,500 g scale
+COMU,fledgling,137,,Funk,1984,12-Aug-84,67,,,230,,,,,, dip net,,500 g scale
+COMU,fledgling,138,,Funk,1984,12-Aug-84,61,,,206,,,,,, dip net,,500 g scale
+COMU,fledgling,139,,Funk,1984,12-Aug-84,71,,,191,,,,,, dip net,,500 g scale
+COMU,fledgling,140,,Funk,1984,12-Aug-84,56,,,156,,,,,, dip net,,500 g scale
+COMU,fledgling,141,,Funk,1984,12-Aug-84,58,,,217,,,,,, dip net,,500 g scale
+COMU,fledgling,142,,Funk,1984,12-Aug-84,63,,,216,,,,,, dip net,,500 g scale
+COMU,fledgling,143,,Funk,1984,12-Aug-84,62,,,196,,,,,, dip net,,500 g scale
+COMU,fledgling,144,,Funk,1984,12-Aug-84,45,,,154,,,,,, dip net,,500 g scale
+COMU,fledgling,145,,Funk,1984,12-Aug-84,43,,,168,,,,,, dip net,,500 g scale
+COMU,fledgling,146,,Funk,1984,12-Aug-84,54,,,202,,,,,, dip net,,500 g scale
+COMU,fledgling,147,,Funk,1984,12-Aug-84,59,,,166,,,,,, dip net,,500 g scale
+COMU,fledgling,148,,Funk,1984,12-Aug-84,59,,,191,,,,,, dip net,,500 g scale
+COMU,fledgling,149,896-17326,Funk,1984,13-Aug-84,44,,,150,,,,,, dip net,,500 g scale
+COMU,fledgling,150,896-17327,Funk,1984,13-Aug-84,37,,,160,,,,,, dip net,,500 g scale
+COMU,fledgling,151,896-17328,Funk,1984,13-Aug-84,57,,,164,,,,,, dip net,,500 g scale
+COMU,fledgling,152,896-17329,Funk,1984,13-Aug-84,62,,,194,,,,,, dip net,,500 g scale
+COMU,fledgling,153,896-17330,Funk,1984,13-Aug-84,62,,,234,,,,,, dip net,,500 g scale
+COMU,fledgling,154,896-17331,Funk,1984,13-Aug-84,60,,,184,,,,,, dip net,,500 g scale
+COMU,fledgling,155,896-17332,Funk,1984,13-Aug-84,61,,,216,,,,,, dip net,,500 g scale
+COMU,fledgling,156,896-17333,Funk,1984,13-Aug-84,63,,,226,,,,,, dip net,,500 g scale
+COMU,fledgling,157,896-17334,Funk,1984,13-Aug-84,54,,,158,,,,,, dip net,,500 g scale
+COMU,fledgling,158,896-17335,Funk,1984,13-Aug-84,57,,,184,,,,,, dip net,,500 g scale
+COMU,fledgling,159,896-17336,Funk,1984,13-Aug-84,59,,,180,,,,,, dip net,,500 g scale
+COMU,fledgling,160,896-17337,Funk,1984,13-Aug-84,55,,,190,,,,,, dip net,,500 g scale
+COMU,fledgling,161,896-17338,Funk,1984,13-Aug-84,57,,,183,,,,,, dip net,,500 g scale
+COMU,fledgling,162,896-17339,Funk,1984,13-Aug-84,38,,,125,,,,,, dip net,,500 g scale
+COMU,fledgling,163,896-17340,Funk,1984,13-Aug-84,50,,,123,,,,,, dip net,,500 g scale
+COMU,fledgling,164,896-17341,Funk,1984,13-Aug-84,59,,,184,,,,,, dip net,,500 g scale
+COMU,fledgling,25,,Funk,1997,7-Aug-97,56,,,173,,,,,,round up,,
+COMU,fledgling,26,,Funk,1997,7-Aug-97,46,,,145,,,,,,round up,,
+COMU,fledgling,27,,Funk,1997,7-Aug-97,39,,,128,,,,,,round up,,
+COMU,fledgling,28,,Funk,1997,7-Aug-97,39,,,130,,,,,,round up,,
+COMU,fledgling,29,,Funk,1997,7-Aug-97,34,,,124,,,,,,round up,,
+COMU,fledgling,30,,Funk,1997,7-Aug-97,35,,,135,,,,,,round up,,
+COMU,fledgling,31,,Funk,1997,7-Aug-97,64,,,160,,,,,,round up,,
+COMU,fledgling,32,,Funk,1997,7-Aug-97,44,,,151,,,,,,round up,,
+COMU,fledgling,33,,Funk,1997,7-Aug-97,63,,,190,,,,,,round up,,
+COMU,fledgling,1,,Funk,1998,15-Aug-98,53,,,180,,,,,,round up,,It was not indicated whether 10g bag was already subtracted
+COMU,fledgling,2,,Funk,1998,15-Aug-98,57,,,210,,,,,,round up,,
+COMU,fledgling,3,,Funk,1998,15-Aug-98,55,,,205,,,,,,round up,,
+COMU,fledgling,4,,Funk,1998,15-Aug-98,51,,,220,,,,,,round up,,
+COMU,fledgling,5,,Funk,1998,15-Aug-98,48,,,215,,,,,,round up,,
+COMU,fledgling,6,,Funk,1998,15-Aug-98,35,,,150,,,,,,round up,,
+COMU,fledgling,7,,Funk,1998,15-Aug-98,27,,,95,,,,,,round up,,
+COMU,fledgling,8,,Funk,1998,15-Aug-98,60,,,225,,,,,,round up,,
+COMU,fledgling,9,,Funk,1998,15-Aug-98,50,,,180,,,,,,round up,,
+COMU,fledgling,10,,Funk,1998,15-Aug-98,58,,,205,,,,,,round up,,
+COMU,fledgling,11,,Funk,1998,15-Aug-98,43,,,205,,,,,,round up,,
+COMU,fledgling,12,,Funk,1998,15-Aug-98,59,,,195,,,,,,round up,,
+COMU,fledgling,13,,Funk,1998,15-Aug-98,49,,,215,,,,,,round up,,
+COMU,fledgling,14,,Funk,1998,15-Aug-98,48,,,225,,,,,,round up,,
+COMU,fledgling,15,,Funk,1998,15-Aug-98,58,,,205,,,,,,round up,,
+COMU,fledgling,16,,Funk,1998,15-Aug-98,38,,,170,,,,,,round up,,
+COMU,fledgling,17,,Funk,1998,15-Aug-98,38,,,175,,,,,,round up,,
+COMU,fledgling,18,,Funk,1998,15-Aug-98,50,,,240,,,,,,round up,,
+COMU,fledgling,19,,Funk,1998,15-Aug-98,49,,,220,,,,,,round up,,
+COMU,fledgling,20,,Funk,1998,15-Aug-98,55,,,200,,,,,,round up,,
+COMU,fledgling,21,,Funk,1998,15-Aug-98,65,,,170,,,,,,round up,,
+COMU,fledgling,22,,Funk,1998,15-Aug-98,55,,,195,,,,,,round up,,
+COMU,fledgling,23,,Funk,1998,15-Aug-98,55,,,250,,,,,,round up,,
+COMU,fledgling,24,,Funk,1998,15-Aug-98,34,,,160,,,,,,round up,,dead
+COMU,fledgling,25,,Funk,1998,15-Aug-98,53,,,180,,,,,,round up,,
+COMU,fledgling,26,,Funk,1998,15-Aug-98,57,,,210,,,,,,round up,,
+COMU,fledgling,27,,Funk,1998,15-Aug-98,55,,,205,,,,,,round up,,
+COMU,fledgling,28,,Funk,1998,15-Aug-98,51,,,220,,,,,,round up,,
+COMU,fledgling,29,,Funk,1998,15-Aug-98,48,,,215,,,,,,round up,,
+COMU,fledgling,30,,Funk,1998,15-Aug-98,35,,,150,,,,,,round up,,
+COMU,fledgling,31,,Funk,1998,15-Aug-98,27,,,95,,,,,,round up,,
+COMU,fledgling,32,,Funk,1998,15-Aug-98,60,,,225,,,,,,round up,,
+COMU,fledgling,33,,Funk,1998,15-Aug-98,50,,,180,,,,,,round up,,
+COMU,fledgling,34,,Funk,1998,15-Aug-98,58,,,205,,,,,,round up,,
+COMU,fledgling,35,,Funk,1998,15-Aug-98,43,,,205,,,,,,round up,,
+COMU,fledgling,36,,Funk,1998,15-Aug-98,59,,,195,,,,,,round up,,
+COMU,fledgling,37,,Funk,1998,15-Aug-98,49,,,215,,,,,,round up,,
+COMU,fledgling,42,,Funk,1998,15-Aug-98,50,,,240,,,,,,round up,,
+COMU,fledgling,43,,Funk,1998,15-Aug-98,49,,,220,,,,,,round up,,
+COMU,fledgling,44,,Funk,1998,15-Aug-98,55,,,200,,,,,,round up,,
+COMU,fledgling,45,,Funk,1998,15-Aug-98,65,,,170,,,,,,round up,,
+COMU,fledgling,46,,Funk,1998,15-Aug-98,55,,,195,,,,,,round up,,
+COMU,fledgling,47,,Funk,1998,15-Aug-98,55,,,250,,,,,,round up,,
+COMU,fledgling,48,,Funk,1998,15-Aug-98,34,,,160,,,,,,round up,,
+COMU,fledgling,49,,Funk,1998,15-Aug-98,53,,,180,,,,,,round up,,It was not indicated whether 10g bag was already subtracted
+COMU,fledgling,50,,Funk,1998,15-Aug-98,57,,,210,,,,,,round up,,
+COMU,fledgling,51,,Funk,1998,15-Aug-98,55,,,205,,,,,,round up,,
+COMU,fledgling,52,,Funk,1998,15-Aug-98,51,,,220,,,,,,round up,,
+COMU,fledgling,53,,Funk,1998,15-Aug-98,48,,,215,,,,,,round up,,
+COMU,fledgling,54,,Funk,1998,15-Aug-98,35,,,150,,,,,,round up,,
+COMU,fledgling,55,,Funk,1998,15-Aug-98,27,,,95,,,,,,round up,,
+COMU,fledgling,56,,Funk,1998,15-Aug-98,60,,,225,,,,,,round up,,
+COMU,fledgling,57,,Funk,1998,15-Aug-98,50,,,180,,,,,,round up,,
+COMU,fledgling,58,,Funk,1998,15-Aug-98,58,,,205,,,,,,round up,,
+COMU,fledgling,59,,Funk,1998,15-Aug-98,43,,,205,,,,,,round up,,
+COMU,fledgling,60,,Funk,1998,15-Aug-98,59,,,195,,,,,,round up,,
+COMU,fledgling,61,,Funk,1998,15-Aug-98,49,,,215,,,,,,round up,,
+COMU,fledgling,62,,Funk,1998,15-Aug-98,48,,,225,,,,,,round up,,
+COMU,fledgling,63,,Funk,1998,15-Aug-98,58,,,205,,,,,,round up,,
+COMU,fledgling,64,,Funk,1998,15-Aug-98,38,,,170,,,,,,round up,,
+COMU,fledgling,65,,Funk,1998,15-Aug-98,38,,,175,,,,,,round up,,
+COMU,fledgling,66,,Funk,1998,15-Aug-98,50,,,240,,,,,,round up,,
+COMU,fledgling,67,,Funk,1998,15-Aug-98,49,,,220,,,,,,round up,,
+COMU,fledgling,68,,Funk,1998,15-Aug-98,55,,,200,,,,,,round up,,
+COMU,fledgling,69,,Funk,1998,15-Aug-98,65,,,170,,,,,,round up,,
+COMU,fledgling,70,,Funk,1998,15-Aug-98,55,,,195,,,,,,round up,,
+COMU,fledgling,71,,Funk,1998,15-Aug-98,55,,,250,,,,,,round up,,
+COMU,fledgling,72,,Funk,1998,15-Aug-98,34,,,160,,,,,,round up,,dead
+COMU,fledgling,165,,Funk,2000,6-Aug-00,69,215,20,195,,34.8,18.1,,, dip net,,"down on back neck, white on face"
+COMU,fledgling,166,,Funk,2000,6-Aug-00,62,220,20,200,,33,17.1,,, dip net,,"down on back neck, white on face"
+COMU,fledgling,167,,Funk,2000,6-Aug-00,70,215,20,195,,33,18.3,,, dip net,,"down on back neck, white on face"
+COMU,fledgling,168,,Funk,2000,6-Aug-00,78,185,20,165,,35.5,18.6,,, dip net,,"down on back neck, white on face"
+COMU,fledgling,169,,Funk,2000,6-Aug-00,65,150,20,130,,33.3,18.6,,, dip net,,"down on back neck, white on face"
+COMU,fledgling,170,,Funk,2000,6-Aug-00,78,230,20,210,,33.2,19.4,,, dip net,,"down on back neck, white on face"
+COMU,fledgling,171,,Funk,2000,6-Aug-00,60,170,20,150,,31.1,17.5,,, dip net,,"down on back neck, white on face"
+COMU,fledgling,172,,Funk,2000,6-Aug-00,60,195,28,167,,33.3,18.3,,, dip net,,
+COMU,fledgling,173,,Funk,2000,6-Aug-00,59,238,28,210,,30.6,10,,, dip net,,
+COMU,fledgling,174,,Funk,2000,6-Aug-00,67,222,28,194,,29.1,21.6,,, dip net,,
+COMU,fledgling,175,,Funk,2000,6-Aug-00,64,155,28,127,,30.3,18.1,,, dip net,,
+COMU,fledgling,176,,Funk,2000,6-Aug-00,75,212,28,184,,32.5,18.6,,, dip net,,
+COMU,fledgling,177,,Funk,2000,6-Aug-00,56,222,30,192,,31.5,17.6,,, dip net,,
+COMU,fledgling,178,,Funk,2000,6-Aug-00,77,245,30,215,,35.1,17.6,,, dip net,,
+COMU,fledgling,179,,Funk,2000,6-Aug-00,67,240,30,210,,33.5,19,,, dip net,,
+COMU,fledgling,180,,Funk,2000,6-Aug-00,69,230,29,201,,34.3,19.4,,, dip net,,
+COMU,fledgling,181,,Funk,2000,6-Aug-00,67,260,29,231,,36.3,20.2,,, dip net,,
+COMU,fledgling,182,,Funk,2000,6-Aug-00,76,212,29,183,,33.7,18.7,,, dip net,,
+COMU,fledgling,183,,Funk,2000,6-Aug-00,62,220,29,191,,32.6,16.8,,, dip net,,
+COMU,fledgling,184,,Funk,2000,6-Aug-00,77,225,29,196,,33.2,19,,, dip net,,
+COMU,fledgling,185,,Funk,2000,6-Aug-00,68,240,29,211,,34.7,19.5,,, dip net,,
+COMU,fledgling,186,,Funk,2000,10-Aug-00,66,280,29,251,,36.2,20.5,,, dip net,,
+COMU,fledgling,187,,Funk,2000,10-Aug-00,64,185,15,170,,31.1,17,,, dip net,,
+COMU,fledgling,188,,Funk,2000,10-Aug-00,66,165,14,151,,32,19.3,,, dip net,,
+COMU,fledgling,189,,Funk,2000,12-Aug-00,55,195,20,175,,30,18,,, dip net,,
+COMU,fledgling,190,,Funk,2000,12-Aug-00,65,215,20,195,,30.4,18.1,,, dip net,,
+COMU,fledgling,191,,Funk,2000,12-Aug-00,66,215,20,195,,32.9,17.6,,, dip net,,
+COMU,fledgling,192,,Funk,2000,12-Aug-00,68,215,20,195,,31.2,19,,, dip net,,
+COMU,fledgling,193,,Funk,2000,12-Aug-00,68,185,20,165,,32.1,18.6,,, dip net,,
+COMU,fledgling,194,,Funk,2000,12-Aug-00,75,220,20,200,,30.4,19,,, dip net,,
+COMU,fledgling,195,,Funk,2000,12-Aug-00,68,250,20,230,,31.7,18.9,,, dip net,,
+COMU,fledgling,196,,Funk,2000,12-Aug-00,72,235,25,210,,33.7,48,,, dip net,,
+COMU,fledgling,197,,Funk,2000,12-Aug-00,54,180,25,155,,30.2,17,,, dip net,,
+COMU,fledgling,198,,Funk,2000,12-Aug-00,67,200,25,175,,32.2,18.3,,, dip net,,
+COMU,fledgling,199,,Funk,2000,12-Aug-00,69,245,25,220,,35.2,19.3,,, dip net,,
+COMU,fledgling,200,,Funk,2000,12-Aug-00,57,215,25,190,,33.3,18.2,,, dip net,,
+COMU,fledgling,201,,Funk,2000,12-Aug-00,61,220,25,195,,32.6,17.6,,, dip net,,
+COMU,fledgling,202,,Funk,2000,12-Aug-00,55,200,25,175,,32.3,18.4,,, dip net,,
+COMU,fledgling,203,,Funk,2000,12-Aug-00,83,255,25,230,,35.8,18.5,,, dip net,,
+COMU,fledgling,204,,Funk,2000,12-Aug-00,58,215,25,190,,31.9,19.4,,, dip net,,
+COMU,fledgling,205,,Funk,2000,12-Aug-00,62,215,25,190,,34.2,18.5,,, dip net,,
+COMU,fledgling,206,,Funk,2000,12-Aug-00,63,240,25,215,,34.9,18.5,,, dip net,,
+COMU,fledgling,207,,Funk,2000,12-Aug-00,66,235,25,210,,33.9,20,,, dip net,,
+COMU,fledgling,208,,Funk,2001,1-Aug-01,53,,,136,,,,,, dip net,,
+COMU,fledgling,209,,Funk,2001,1-Aug-01,49,,,174,,,,,, dip net,,
+COMU,fledgling,210,,Funk,2001,1-Aug-01,63,,,170,,,,,, dip net,,
+COMU,fledgling,211,,Funk,2001,1-Aug-01,65,,,168,,,,,, dip net,,
+COMU,fledgling,212,,Funk,2001,1-Aug-01,63,,,158,,,,,, dip net,,
+COMU,fledgling,213,,Funk,2001,1-Aug-01,,,,192,,,,,, dip net,,
+COMU,fledgling,214,,Funk,2001,1-Aug-01,73,,,224,,,,,, dip net,,
+COMU,fledgling,215,,Funk,2001,1-Aug-01,55,,,204,,,,,, dip net,,
+COMU,fledgling,216,,Funk,2001,1-Aug-01,58,,,186,,,,,, dip net,,
+COMU,fledgling,217,,Funk,2001,1-Aug-01,83,,,234,,,,,, dip net,,
+COMU,fledgling,218,,Funk,2001,1-Aug-01,71,,,180,,,,,, dip net,,
+COMU,fledgling,219,,Funk,2001,1-Aug-01,59,,,200,,,,,, dip net,,
+COMU,fledgling,220,,Funk,2001,1-Aug-01,60,,,172,,,,,, dip net,,
+COMU,fledgling,221,,Funk,2001,1-Aug-01,53,,,165,,,,,, dip net,,
+COMU,fledgling,222,,Funk,2001,1-Aug-01,62,,,180,,,,,, dip net,,
+COMU,fledgling,223,,Funk,2001,1-Aug-01,67,,,220,,,,,, dip net,,
+COMU,fledgling,224,,Funk,2001,1-Aug-01,67,,,225,,,,,, dip net,,
+COMU,fledgling,225,,Funk,2001,1-Aug-01,69,,,200,,,,,, dip net,,
+COMU,fledgling,226,,Funk,2001,1-Aug-01,71,,,225,,,,,, dip net,,
+COMU,fledgling,227,,Funk,2001,1-Aug-01,70,,,185,,,,,, dip net,,
+COMU,fledgling,228,,Funk,2001,1-Aug-01,70,,,225,,,,,, dip net,,
+COMU,fledgling,229,,Funk,2001,1-Aug-01,67,,,240,,,,,, dip net,,
+COMU,fledgling,230,,Funk,2001,1-Aug-01,60,,,205,,,,,, dip net,,
+COMU,fledgling,231,,Funk,2001,1-Aug-01,48,,,155,,,,,, dip net,,
+COMU,fledgling,232,,Funk,2001,6-Aug-01,65,,,200,,,,,, dip net,,
+COMU,fledgling,233,,Funk,2001,6-Aug-01,75,,,210,,,,,, dip net,,
+COMU,fledgling,234,,Funk,2001,6-Aug-01,75,,,220,,,,,, dip net,,
+COMU,fledgling,235,,Funk,2001,6-Aug-01,80,,,260,,,,,, dip net,,
+COMU,fledgling,236,,Funk,2001,6-Aug-01,67,,,220,,,,,, dip net,,
+COMU,fledgling,237,,Funk,2001,6-Aug-01,66,,,175,,,,,, dip net,,
+COMU,fledgling,238,,Funk,2002,10-Aug-02,75,,,163,,33.1,,,, dip net,,"right leg, right wing"
+COMU,fledgling,239,,Funk,2002,10-Aug-02,66,,,187,,31.71,,,, dip net,,
+COMU,fledgling,240,,Funk,2002,10-Aug-02,70,,,148,,32.34,,,, dip net,,
+COMU,fledgling,241,,Funk,2002,10-Aug-02,77,,,206,,33.1,,,, dip net,,
+COMU,fledgling,242,,Funk,2002,10-Aug-02,56,,,179,,33.3,,,, dip net,,
+COMU,fledgling,243,,Funk,2002,10-Aug-02,66,,,146,,33.67,,,, dip net,,
+COMU,fledgling,244,,Funk,2002,10-Aug-02,72,,,198,,35.43,,,, dip net,,
+COMU,fledgling,245,,Funk,2002,10-Aug-02,67,,,207,,34.42,,,, dip net,,
+COMU,fledgling,246,,Funk,2002,10-Aug-02,75,,,194,,35.03,,,, dip net,,
+COMU,fledgling,247,,Funk,2002,10-Aug-02,83,,,202,,36.71,,,, dip net,,
+COMU,fledgling,248,,Funk,2002,10-Aug-02,71,,,226,,33.83,,,, dip net,,
+COMU,fledgling,249,,Funk,2002,10-Aug-02,73,,,165,,32.2,,,, dip net,,
+COMU,fledgling,250,,Funk,2002,10-Aug-02,68,,,174,,33.08,,,, dip net,,
+COMU,fledgling,251,,Funk,2002,10-Aug-02,58,,,167,,31.27,,,, dip net,,
+COMU,fledgling,252,,Funk,2002,10-Aug-02,65,,,174,,33.99,,,, dip net,,
+COMU,fledgling,253,,Funk,2002,10-Aug-02,62,,,178,,32.49,,,, dip net,,
+COMU,fledgling,254,,Funk,2002,10-Aug-02,71,,,186,,34.82,,,, dip net,,
+COMU,fledgling,255,,Funk,2002,10-Aug-02,68,,,198,,34.86,,,, dip net,,
+COMU,fledgling,256,,Funk,2002,10-Aug-02,77,,,196,,31.07,,,, dip net,,
+COMU,fledgling,257,,Funk,2002,10-Aug-02,63,,,168,,31.42,,,, dip net,,
+COMU,fledgling,258,,Funk,2002,12-Aug-02,61,,,186,,34.28,,,, dip net,,
+COMU,fledgling,259,,Funk,2002,12-Aug-02,63,,,156,,33.42,,,, dip net,,
+COMU,fledgling,260,,Funk,2002,12-Aug-02,62,,,143,,32.2,,,, dip net,,
+COMU,fledgling,261,,Funk,2002,12-Aug-02,59,,,160,,31.93,,,, dip net,,
+COMU,fledgling,262,,Funk,2002,12-Aug-02,67,,,168,,32.74,,,, dip net,,
+COMU,fledgling,263,,Funk,2002,12-Aug-02,71,,,170,,34.34,,,, dip net,,
+COMU,fledgling,264,,Funk,2002,12-Aug-02,69,,,144,,32.21,,,, dip net,,
+COMU,fledgling,265,,Funk,2002,12-Aug-02,65,,,196,,33.77,,,, dip net,,
+COMU,fledgling,266,,Funk,2002,12-Aug-02,70,,,210,,33.24,,,, dip net,,
+COMU,fledgling,267,,Funk,2002,12-Aug-02,69,,,190,,34.12,,,, dip net,,
+COMU,fledgling,268,,Funk,2003,1-Aug-03,63,186,8,178,,,,,, dip net,wet,
+COMU,fledgling,269,,Funk,2003,1-Aug-03,61,203,4,199,,,,,, dip net,dry,
+COMU,fledgling,270,,Funk,2003,1-Aug-03,60,210,4,206,,,,,, dip net,dry,
+COMU,fledgling,271,,Funk,2003,1-Aug-03,63,207,7,200,,,,,, dip net,wet,
+COMU,fledgling,272,,Funk,2003,1-Aug-03,68,231,6,225,,,,,, dip net,wet,
+COMU,fledgling,273,,Funk,2003,1-Aug-03,20,205,5,200,,,,,, dip net,wet,
+COMU,fledgling,274,,Funk,2003,1-Aug-03,67,192,5,187,,,,,, dip net,dry,
+COMU,fledgling,275,,Funk,2003,1-Aug-03,64,164,5,159,,,,,, dip net,dry,
+COMU,fledgling,276,,Funk,2003,1-Aug-03,64,199,5,194,,,,,, dip net,wet,
+COMU,fledgling,277,,Funk,2003,1-Aug-03,66,184,5,179,,,,,, dip net,wet,
+COMU,fledgling,278,,Funk,2003,1-Aug-03,46,209,5,204,,,,,, dip net,wet,
+COMU,fledgling,279,,Funk,2003,1-Aug-03,21,202,5,197,,,,,, dip net,wet,
+COMU,fledgling,280,,Funk,2003,1-Aug-03,61,198,5,193,,,,,, dip net,wet,
+COMU,fledgling,281,,Funk,2003,1-Aug-03,72,244,7,237,,,,,, dip net,wet,
+COMU,fledgling,282,,Funk,2003,1-Aug-03,66,118,7,111,,,,,, dip net,wet,
+COMU,fledgling,283,,Funk,2003,1-Aug-03,70,195,5,190,,,,,, dip net,wet,
+COMU,fledgling,284,,Funk,2003,1-Aug-03,54,153,5,148,,,,,, dip net,wet,
+COMU,fledgling,285,,Funk,2003,1-Aug-03,76,252,5,247,,,,,, dip net,wet,
+COMU,fledgling,286,,Funk,2003,1-Aug-03,66,180,5,175,,,,,, dip net,wet,
+COMU,fledgling,287,,Funk,2003,1-Aug-03,73,241,8,233,,,,,, dip net,wet,
+COMU,fledgling,288,,Funk,2003,1-Aug-03,68,225,8,217,,,,,, dip net,wet,
+COMU,fledgling,289,,Funk,2003,1-Aug-03,58,195,6,189,,,,,, dip net,wet,
+COMU,fledgling,290,,Funk,2003,1-Aug-03,64,200,6,194,,,,,, dip net,wet,
+COMU,fledgling,291,,Funk,2003,6-Aug-03,75,234,8,226,,,,,, dip net,dry,
+COMU,fledgling,292,,Funk,2003,6-Aug-03,75,188,10,180,,,,,, dip net,wet,
+COMU,fledgling,293,,Funk,2003,6-Aug-03,73,235,10,227,,,,,, dip net,wet,
+COMU,fledgling,294,,Funk,2003,6-Aug-03,74,232,10,224,,,,,, dip net,dry,
+COMU,fledgling,295,,Funk,2003,6-Aug-03,65,210,10,202,,,,,, dip net,wet,
+COMU,fledgling,296,,Funk,2003,6-Aug-03,69,195,7,187,,,,,, dip net,dry,
+COMU,fledgling,297,,Funk,2003,6-Aug-03,66,212,7,204,,,,,, dip net,dry,
+COMU,fledgling,298,,Funk,2003,6-Aug-03,70,215,7,207,,,,,, dip net,wet,
+COMU,fledgling,299,,Funk,2003,6-Aug-03,65,170,11,162,,,,,, dip net,wet,
+COMU,fledgling,300,,Funk,2003,6-Aug-03,65,204,8,196,,,,,, dip net,wet,
+COMU,fledgling,301,,Funk,2003,6-Aug-03,78,240,7,232,,,,,, dip net,wet,
+COMU,fledgling,302,,Funk,2003,6-Aug-03,62,172,9,164,,,,,, dip net,wet,
+COMU,fledgling,303,,Funk,2003,6-Aug-03,74,222,8,214,,,,,, dip net,wet,
+COMU,fledgling,304,,Funk,2003,6-Aug-03,68,224,9,216,,,,,, dip net,dry,
+COMU,fledgling,305,,Funk,2003,6-Aug-03,69,188,9,180,,,,,, dip net,wet,
+COMU,fledgling,306,,Funk,2003,6-Aug-03,66,188,9,180,,,,,, dip net,wet,
+COMU,fledgling,307,,Funk,2003,6-Aug-03,80,203,7,195,,,,,, dip net,dry,
+COMU,fledgling,308,,Funk,2003,6-Aug-03,67,217,10,209,,,,,, dip net,dry,
+COMU,fledgling,309,,Funk,2003,6-Aug-03,85,213,8,205,,,,,, dip net,wet,
+COMU,fledgling,310,,Funk,2003,6-Aug-03,65,180,10,172,,,,,, dip net,dry,
+COMU,fledgling,311,,Funk,2003,6-Aug-03,84,263,10,255,,,,,, dip net,wet,
+COMU,fledgling,312,,Funk,2003,6-Aug-03,69,190,9,182,,,,,, dip net,dry,
+COMU,fledgling,313,,Funk,2003,6-Aug-03,70,210,8,202,,,,,, dip net,dry,
+COMU,fledgling,314,,Funk,2003,6-Aug-03,70,228,9,220,,,,,, dip net,dry,
+COMU,fledgling,315,,Funk,2003,6-Aug-03,73,232,7,224,,,,,, dip net,dry,
+COMU,fledgling,316,,Funk,2003,6-Aug-03,70,197,10,189,,,,,, dip net,dry,
+COMU,fledgling,317,,Funk,2003,6-Aug-03,82,224,8,216,,,,,, dip net,dry,
+COMU,fledgling,318,,Funk,2003,6-Aug-03,77,210,8,202,,,,,, dip net,dry,
+COMU,fledgling,319,,Funk,2003,6-Aug-03,76,180,10,172,,,,,, dip net,dry,
+COMU,fledgling,320,,Funk,2003,6-Aug-03,75,247,8,239,,,,,, dip net,dry,
+COMU,fledgling,321,,Funk,2003,6-Aug-03,65,185,9,177,,,,,, dip net,dry,
+COMU,fledgling,322,996-85046,Funk,2004,27-Jul-04,71,183,48,135,,,,,, dip net,wet,
+COMU,fledgling,323,996-85047,Funk,2004,27-Jul-04,71,235,48,187,,,,,, dip net,wet,
+COMU,fledgling,324,996-85048,Funk,2004,27-Jul-04,72,298,51,247,,,,,, dip net,wet,
+COMU,fledgling,325,996-85049,Funk,2004,27-Jul-04,67,260,53,207,,,,,, dip net,wet,
+COMU,fledgling,326,996-85050,Funk,2004,27-Jul-04,61,269,60,209,,,,,, dip net,wet,
+COMU,fledgling,327,996-85051,Funk,2004,27-Jul-04,72,297,62,235,,,,,, dip net,wet,
+COMU,fledgling,328,996-85052,Funk,2004,27-Jul-04,70,300,70,230,,,,,, dip net,wet,
+COMU,fledgling,329,996-85053,Funk,2004,30-Jul-04,76,265,15,250,,,,,, dip net,wet,
+COMU,fledgling,330,996-85054,Funk,2004,30-Jul-04,60,223,15,208,,,,,, dip net,wet,
+COMU,fledgling,331,996-85055,Funk,2004,30-Jul-04,72,255,15,240,,,,,, dip net,wet,
+COMU,fledgling,332,996-85056,Funk,2004,30-Jul-04,73,235,15,220,,,,,, dip net,wet,
+COMU,fledgling,333,996-85057,Funk,2004,30-Jul-04,67,225,15,210,,,,,, dip net,dry,
+COMU,fledgling,334,996-85058,Funk,2004,30-Jul-04,70,260,15,245,,,,,, dip net,dry,
+COMU,fledgling,335,996-85059,Funk,2004,30-Jul-04,50,180,15,165,,,,,, dip net,dry,
+COMU,fledgling,336,996-85060,Funk,2004,30-Jul-04,69,235,15,220,,,,,, dip net,wet,
+COMU,fledgling,337,996-85061,Funk,2004,30-Jul-04,67,225,15,210,,,,,, dip net,wet,
+COMU,fledgling,338,996-85062,Funk,2004,30-Jul-04,76,225,15,210,,,,,, dip net,wet,
+COMU,fledgling,339,996-85063,Funk,2004,30-Jul-04,72,285,35,250,,,,,, dip net,dry,
+COMU,fledgling,340,996-85064,Funk,2004,30-Jul-04,55,245,35,210,,,,,, dip net,dry,
+COMU,fledgling,341,996-85065,Funk,2004,30-Jul-04,74,230,35,195,,,,,, dip net,dry,
+COMU,fledgling,342,996-85066,Funk,2004,30-Jul-04,67,245,40,205,,,,,, dip net,dry,
+COMU,fledgling,343,996-85067,Funk,2004,30-Jul-04,75,245,40,205,,,,,, dip net,dry,
+COMU,fledgling,344,996-85068,Funk,2004,30-Jul-04,76,265,40,225,,,,,, dip net,dry,
+COMU,fledgling,345,996-85069,Funk,2004,30-Jul-04,64,250,40,210,,,,,, dip net,dry,
+COMU,fledgling,346,996-85070,Funk,2004,30-Jul-04,75,290,40,250,,,,,, dip net,dry,
+COMU,fledgling,347,996-85071,Funk,2004,30-Jul-04,69,270,45,225,,,,,, dip net,dry,
+COMU,fledgling,348,996-85072,Funk,2004,30-Jul-04,67,290,45,245,,,,,, dip net,dry,
+COMU,fledgling,349,996-85073,Funk,2004,31-Jul-04,78,265,45,220,,,,,, dip net,dry,
+COMU,fledgling,350,996-85074,Funk,2004,31-Jul-04,72,260,50,210,,,,,, dip net,dry,
+COMU,fledgling,351,996-85075,Funk,2004,31-Jul-04,65,280,55,225,,,,,, dip net,wet,
+COMU,fledgling,352,996-85076,Funk,2004,31-Jul-04,65,263,55,208,,,,,, dip net,dry,
+COMU,fledgling,353,996-85077,Funk,2004,31-Jul-04,60,240,55,185,,,,,, dip net,wet,
+COMU,fledgling,354,996-85078,Funk,2004,31-Jul-04,70,300,60,240,,,,,, dip net,dry,
+COMU,fledgling,355,996-85079,Funk,2004,31-Jul-04,78,295,70,225,,,,,, dip net,dry,
+COMU,fledgling,356,996-85080,Funk,2004,31-Jul-04,74,305,77,228,,,,,, dip net,wet,
+COMU,fledgling,357,996-85081,Funk,2004,31-Jul-04,75,325,80,245,,,,,, dip net,wet,
+COMU,fledgling,358,996-85082,Funk,2004,31-Jul-04,64,270,75,201,,,,,, dip net,wet,
+COMU,fledgling,359,996-85083,Funk,2004,31-Jul-04,67,285,80,205,,,,,, dip net,dry,
+COMU,fledgling,360,996-85084,Funk,2004,31-Jul-04,63,280,80,200,,,,,, dip net,wet,
+COMU,fledgling,361,996-85085,Funk,2004,31-Jul-04,65,285,80,205,,,,,, dip net,wet,
+COMU,fledgling,362,,Funk,2005,2-Aug-05,65,146,28,118,,,,,, dip net,,
+COMU,fledgling,363,,Funk,2005,2-Aug-05,65,192,29,163,,,,,, dip net,,
+COMU,fledgling,364,,Funk,2005,2-Aug-05,66,242,29,213,,,,,, dip net,,
+COMU,fledgling,365,,Funk,2005,2-Aug-05,60,218,44,174,,,,,, dip net,,
+COMU,fledgling,366,,Funk,2005,2-Aug-05,64,275,44,231,,,,,, dip net,,
+COMU,fledgling,367,,Funk,2005,2-Aug-05,71,250,44,206,,,,,, dip net,,
+COMU,fledgling,368,,Funk,2005,2-Aug-05,65,248,44,204,,,,,, dip net,,
+COMU,fledgling,369,,Funk,2005,2-Aug-05,64,252,40,212,,,,,, dip net,,
+COMU,fledgling,370,,Funk,2005,2-Aug-05,70,239,36,203,,,,,, dip net,,
+COMU,fledgling,371,,Funk,2005,2-Aug-05,72,252,36,216,,,,,, dip net,,
+COMU,fledgling,372,,Funk,2005,2-Aug-05,61,226,37,189,,,,,, dip net,,
+COMU,fledgling,373,,Funk,2005,2-Aug-05,71,252,35,217,,,,,, dip net,,
+COMU,fledgling,374,,Funk,2005,2-Aug-05,61,215,35,180,,,,,, dip net,,
+COMU,fledgling,375,,Funk,2005,2-Aug-05,70,212,31,181,,,,,, dip net,,
+COMU,fledgling,376,,Funk,2005,2-Aug-05,75,300,38,262,,,,,, dip net,,
+COMU,fledgling,377,,Funk,2005,6-Aug-05,80,250,30,220,,,,,, dip net,,
+COMU,fledgling,378,,Funk,2005,6-Aug-05,50,120,32,88,,,,,, dip net,,
+COMU,fledgling,379,,Funk,2005,6-Aug-05,60,200,40,160,,,,,, dip net,,
+COMU,fledgling,380,,Funk,2005,6-Aug-05,65,230,45,185,,,,,, dip net,,
+COMU,fledgling,381,,Funk,2005,6-Aug-05,65,225,45,180,,,,,, dip net,,
+COMU,fledgling,382,,Funk,2005,6-Aug-05,77,240,45,195,,,,,, dip net,,
+COMU,fledgling,383,,Funk,2005,6-Aug-05,71,235,45,190,,,,,, dip net,,
+COMU,fledgling,384,,Funk,2005,6-Aug-05,62,250,40,210,,,,,, dip net,,
+COMU,fledgling,385,,Funk,2005,6-Aug-05,60,225,40,185,,,,,, dip net,,
+COMU,fledgling,386,,Funk,2005,6-Aug-05,71,280,40,240,,,,,, dip net,,
+COMU,fledgling,387,,Funk,2005,6-Aug-05,61,280,40,240,,,,,, dip net,,
+COMU,fledgling,388,,Funk,2005,6-Aug-05,75,280,40,240,,,,,, dip net,,
+COMU,fledgling,389,,Funk,2005,6-Aug-05,75,300,40,260,,,,,, dip net,,
+COMU,fledgling,390,,Funk,2005,6-Aug-05,76,250,40,210,,,,,, dip net,,
+COMU,fledgling,391,,Funk,2005,6-Aug-05,64,205,40,165,,,,,, dip net,,
+COMU,fledgling,392,1106-33636,Funk,2009,4-Aug-09,65,240,50,190,,,,,, dip net,,
+COMU,fledgling,393,1106-33653,Funk,2009,5-Aug-09,69,250,50,200,,,,,, dip net,,
+COMU,fledgling,394,1106-33689,Funk,2009,6-Aug-09,63,198,14,184,,,,,, dip net,wet,
+COMU,fledgling,395,1106-33709,Funk,2009,6-Aug-09,,,,195,,,,,, dip net,,"picked up in AM, fed released at night"
+COMU,fledgling,398,1106-33712,Funk,2009,6-Aug-09,58,250,50,200,,,,,, dip net,,"eggtooth, downy head"
+COMU,fledgling,399,1106-33716,Funk,2009,6-Aug-09,51,225,15,210,,,,,, dip net,,
+COMU,fledgling,402,1106-33725,Funk,2009,6-Aug-09,45,235,75,160,,,,,, dip net,wet,
+COMU,fledgling,403,1106-33726,Funk,2009,6-Aug-09,62,235,50,185,,,,,, dip net,,
+COMU,fledgling,404,1106-33727,Funk,2009,6-Aug-09,58,235,50,185,,,,,, dip net,,
+COMU,fledgling,396,1106-33710,Funk,2009,8-Aug-09,80,,,195,,,,,, dip net,,"picked up in AM, fed released at night"
+COMU,fledgling,397,1106-33711,Funk,2009,8-Aug-09,74,,,180,,,,,, dip net,,
+COMU,fledgling,400,1106-33718,Funk,2009,8-Aug-09,68,,,165,,,,,, dip net,,
+COMU,fledgling,401,1106-33721,Funk,2009,8-Aug-09,93,,,215,,,,,, dip net,,
+COMU,fledgling,405,,Funk,2010,2/8/2010,57,,,140,,,,,, dip net,Dry,Fresh dead fledgling
+COMU,fledgling,406,,Funk,2010,2/8/2010,59,,,154,,,,,, dip net,Dry,Fresh dead fledgling
+COMU,fledgling,407,,Funk,2010,2/8/2010,57,,,181,,,,,, dip net,Wet,Fresh dead fledgling
+COMU,fledgling,408,,Funk,2010,2/8/2010,57,,,153,,,,,, dip net,Wet,Fresh dead fledgling
+COMU,fledgling,409,,Funk,2010,2/8/2010,58,,,111,,,,,, dip net,Dry,Fresh dead fledgling
+COMU,fledgling,410,,Funk,2010,2/8/2010,56,,,178,,,,,, dip net,Wet,Fresh dead fledgling
+COMU,fledgling,411,,Funk,2010,2/8/2010,70,,,142,,,,,, dip net,Dry,Fresh dead fledgling
+COMU,fledgling,412,1106-35029,Funk,2010,4/8/2010,75,196,4,192,,,,,, dip net,Wet,
+COMU,fledgling,413,1106-35025,Funk,2010,4/8/2010,70,172,4,168,,,,,, dip net,Wet,
+COMU,fledgling,414,1106-35026,Funk,2010,4/8/2010,63,164,4,160,,,,,, dip net,Wet,
+COMU,fledgling,415,1106-35028,Funk,2010,4/8/2010,52,146,4,142,,,,,, dip net,Wet,
+COMU,fledgling,416,1106-35027,Funk,2010,4/8/2010,49,132,4,128,,,,,, dip net,Wet,
+COMU,fledgling,417,1106-35029,Funk,2010,4/8/2010,56,196,4,192,,,,,, dip net,Dry,
+COMU,fledgling,418,1106-35030,Funk,2010,4/8/2010,59,215,4,211,,,,,, dip net,Wet,
+COMU,fledgling,419,1106-35031,Funk,2010,4/8/2010,59,126,4,122,,,,,, dip net,Wet,
+COMU,fledgling,420,1106-35032,Funk,2010,4/8/2010,52,190,4,186,,,,,, dip net,Wet,
+COMU,fledgling,421,1106-35033,Funk,2010,4/8/2010,63,158,4,154,,,,,, dip net,Wet,
+COMU,fledgling,422,1106-35034,Funk,2010,4/8/2010,63,188,4,184,,,,,, dip net,Wet,
+COMU,fledgling,423,1106-35035,Funk,2010,4/8/2010,71,195,4,191,,,,,, dip net,Wet,
+COMU,fledgling,424,1106-35036,Funk,2010,4/8/2010,58,185,4,181,,,,,, dip net,Wet,
+COMU,fledgling,425,1106-35037,Funk,2010,4/8/2010,62,198,4,194,,,,,, dip net,Wet,
+COMU,fledgling,426,1106-35038,Funk,2010,4/8/2010,58,168,4,164,,,,,, dip net,Dry,
+COMU,fledgling,427,1106-35039,Funk,2010,4/8/2010,61,138,4,134,,,,,, dip net,Wet,
+COMU,fledgling,428,1106-35040,Funk,2010,4/8/2010,59,132,4,128,,,,,, dip net,Wet,
+COMU,fledgling,429,1106-35041,Funk,2010,4/8/2010,51,136,4,132,,,,,, dip net,Wet,
+COMU,fledgling,430,1106-35043,Funk,2010,4/8/2010,52,136,4,132,,,,,, dip net,Wet,
+COMU,fledgling,431,1106-35042,Funk,2010,4/8/2010,56,169,4,165,,,,,, dip net,Wet,
+COMU,fledgling,432,1106-35044,Funk,2010,4/8/2010,45,130,4,126,,,,,, dip net,Wet,
+COMU,fledgling,433,1106-35051,Funk,2010,5/8/2010,51,175,4,171,,,,,, dip net,Wet,
+COMU,fledgling,434,,Funk,2010,5/8/2010,66,210,4,206,,,,,, dip net,Wet,
+COMU,fledgling,435,1106-35052,Funk,2010,5/8/2010,49,130,4,126,,,,,, dip net,Wet,
+COMU,fledgling,436,1106-35053,Funk,2010,5/8/2010,65,168,4,164,,,,,, dip net,Wet,
+COMU,fledgling,437,1106-35054,Funk,2010,5/8/2010,48,144,4,140,,,,,, dip net,Wet,
+COMU,fledgling,438,1106-35055,Funk,2010,5/8/2010,49,185,42,143,,,,,, dip net,Wet,
+COMU,fledgling,439,1106-35056,Funk,2010,5/8/2010,52,183,42,141,,,,,, dip net,Wet,
+COMU,fledgling,440,1106-35057,Funk,2010,5/8/2010,50,165,42,123,,,,,, dip net,Wet,
+COMU,fledgling,441,1106-35058,Funk,2010,5/8/2010,58,162,4,158,,,,,, dip net,Wet,
+COMU,fledgling,442,1106-35059,Funk,2010,5/8/2010,50,113,4,109,,,,,, dip net,Wet,
+COMU,fledgling,443,1106-35060,Funk,2010,5/8/2010,49,150,45,105,,,,,, dip net,Wet,
+COMU,fledgling,444,1106-35061,Funk,2010,5/8/2010,54,173,4,169,,,,,, dip net,Wet,
+COMU,fledgling,445,1106-35062,Funk,2010,5/8/2010,55,190,4,186,,,,,, dip net,Wet,
+COMU,fledgling,446,1106-35063,Funk,2010,5/8/2010,68,220,52,168,,,,,, dip net,Wet,
+COMU,fledgling,447,1106-35064,Funk,2010,5/8/2010,70,213,53,160,,,,,, dip net,Wet,
+COMU,fledgling,1,1186-06756,Funk,2011,2-Aug-11,59,,,212,,,,,,dip net,wet,
+COMU,fledgling,2,1186-06757,Funk,2011,2-Aug-11,72,,,230,,,,,,dip net,wet,
+COMU,fledgling,3,1186-06758,Funk,2011,2-Aug-11,71,,,179,,,,,,dip net,wet,
+COMU,fledgling,4,1186-06759,Funk,2011,2-Aug-11,56,,,168,,,,,,dip net,wet,
+COMU,fledgling,5,1186-06760,Funk,2011,2-Aug-11,66,,,196,,,,,,dip net,dry,
+COMU,fledgling,6,1186-06761,Funk,2011,2-Aug-11,70,,,237,,,,,,dip net,wet,
+COMU,fledgling,46,1186-06801,Funk,2011,3-Aug-11,71,,,175,,,,,,dip net,wet,
+COMU,fledgling,47,1186-06802,Funk,2011,3-Aug-11,63,,,210,,,,,,dip net,wet,
+COMU,fledgling,48,1186-06803,Funk,2011,3-Aug-11,64,,,145,,,,,,dip net,wet,
+COMU,fledgling,49,1186-06804,Funk,2011,3-Aug-11,69,,,190,,,,,,dip net,wet,
+COMU,fledgling,50,1186-06805,Funk,2011,3-Aug-11,68,,,189,,,,,,dip net,dry,
+COMU,fledgling,51,1186-06806,Funk,2011,3-Aug-11,78,,,225,,,,,,dip net,wet,
+COMU,fledgling,52,1186-06807,Funk,2011,3-Aug-11,77,,,195,,,,,,dip net,wet,
+COMU,fledgling,53,1186-06808,Funk,2011,3-Aug-11,55,,,185,,,,,,dip net,wet,
+COMU,fledgling,86,1186-06841,Funk,2011,4-Aug-11,71,,,150,,,,,,dip net,wet,
+COMU,fledgling,87,1186-06842,Funk,2011,4-Aug-11,63,,,140,,,,,,dip net,wet,
+COMU,fledgling,88,1186-06843,Funk,2011,4-Aug-11,73,,,200,,,,,,dip net,wet,
+COMU,fledgling,89,1186-06844,Funk,2011,4-Aug-11,59,,,145,,,,,,dip net,wet,
+COMU,fledgling,90,1186-06845,Funk,2011,4-Aug-11,,,,,,,,,,dip net,,
+COMU,fledgling,92,1186-06847,Funk,2011,4-Aug-11,,,,148,,,,,,dip net,dry,
+COMU,fledgling,93,1186-06848,Funk,2011,4-Aug-11,54,,,210,,,,,,dip net,dry,
+COMU,fledgling,94,1186-06849,Funk,2011,4-Aug-11,,,,,,,,,,dip net,,
+COMU,fledgling,141,1186-06896,Funk,2011,6-Aug-11,72,,,180,,,,,,dip net,,
+COMU,fledgling,156,1186-06911,Funk,2011,7-Aug-11,,,,,,,,,,dip net,,
+COMU,fledgling,157,1186-06912,Funk,2011,7-Aug-11,59,,,195,,,,,,dip net,,
+COMU,fledgling,158,1186-06913,Funk,2011,7-Aug-11,68,,,215,,,,,,dip net,,
+COMU,fledgling,159,1186-06914,Funk,2011,7-Aug-11,,,,,,,,,,dip net,,
+COMU,fledgling,160,1186-06915,Funk,2011,7-Aug-11,70,,,255,,,,,,dip net,wet,
+COMU,fledgling,161,1186-06916,Funk,2011,7-Aug-11,,,,,,,,,,dip net,,
+COMU,fledgling,162,1186-06917,Funk,2011,7-Aug-11,,,,,,,,,,dip net,,
+COMU,fledgling,163,1186-06918,Funk,2011,8-Aug-11,66,,,195,,,,,,dip net,,
+COMU,fledgling,448,1106-22544,Funk,2012,27-Jul-12,69,240,45,195,,,,,, dip net,wet,
+COMU,fledgling,449,1106-22547,Funk,2012,27-Jul-12,63,215,20,195,,,,,, dip net,wet,
+COMU,fledgling,450,1106-22515,Funk,2012,27-Jul-12,69,250,45,205,,,,,, dip net,wet,
+COMU,fledgling,451,1106-22511,Funk,2012,27-Jul-12,63,230,20,210,,,,,, dip net,wet,
+COMU,fledgling,452,1106-22533,Funk,2012,27-Jul-12,63,210,20,190,,,,,, dip net,wet,
+COMU,fledgling,453,1106-22528,Funk,2012,27-Jul-12,74,240,45,195,,,,,, dip net,wet,
+COMU,fledgling,454,1106-22516,Funk,2012,27-Jul-12,52,235,20,215,,,,,, dip net,dry,
+COMU,fledgling,455,1106-22527,Funk,2012,27-Jul-12,74,265,20,245,,,,,, dip net,dry,
+COMU,fledgling,456,1106-22532,Funk,2012,27-Jul-12,65,270,45,225,,,,,, dip net,wet,
+COMU,fledgling,457,1106-22531,Funk,2012,27-Jul-12,72,280,20,260,,,,,, dip net,wet,
+COMU,fledgling,458,1106-22546,Funk,2012,27-Jul-12,67,250,45,205,,,,,, dip net,wet,
+COMU,fledgling,459,1106-22510,Funk,2012,27-Jul-12,71,250,,,,,,,, dip net,wet,
+COMU,fledgling,460,1106-22514,Funk,2012,27-Jul-12,52,200,,,,,,,, dip net,wet,
+COMU,fledgling,461,1106-22523,Funk,2012,27-Jul-12,69,230,,,,,,,, dip net,wet,
+COMU,fledgling,462,1106-22522,Funk,2012,27-Jul-12,69,230,,,,,,,, dip net,wet,
+COMU,fledgling,463,1106-22548,Funk,2012,27-Jul-12,69,260,,,,,,,, dip net,wet,
+COMU,fledgling,464,1106-22502,Funk,2012,27-Jul-12,69,253,45,208,,,,,, dip net,wet,
+COMU,fledgling,465,1106-22503,Funk,2012,27-Jul-12,69,260,,,,,,,, dip net,wet,
+COMU,fledgling,466,1106-22550,Funk,2012,27-Jul-12,68,260,45,215,,,,,, dip net,wet,
+COMU,fledgling,467,1106-22506,Funk,2012,27-Jul-12,54,245,,,,,,,, dip net,wet,
+COMU,fledgling,468,1106-22517,Funk,2012,27-Jul-12,82,295,,,,,,,, dip net,wet,
+COMU,fledgling,469,1106-22537,Funk,2012,27-Jul-12,64,260,,,,,,,, dip net,wet,
+COMU,fledgling,470,1106-22507,Funk,2012,27-Jul-12,71,250,45,205,,,,,, dip net,wet,
+COMU,fledgling,471,1106-22504,Funk,2012,27-Jul-12,74,240,45,195,,,,,, dip net,wet,
+COMU,fledgling,472,1106-22549,Funk,2012,27-Jul-12,51,260,45,215,,,,,, dip net,wet,
+COMU,fledgling,473,1106-22526,Funk,2012,27-Jul-12,63,250,45,205,,,,,, dip net,wet,
+COMU,fledgling,474,1106-22513,Funk,2012,27-Jul-12,64,230,9,221,,,,,, dip net,wet,
+COMU,fledgling,475,1106-22534,Funk,2012,27-Jul-12,70,200,9,191,,,,,, dip net,wet,
+COMU,fledgling,476,1106-22512,Funk,2012,27-Jul-12,68,270,45,225,,,,,, dip net,wet,
+COMU,fledgling,477,1106-22540,Funk,2012,27-Jul-12,72,270,9,261,,,,,, dip net,wet,
+COMU,fledgling,478,1106-22545,Funk,2012,27-Jul-12,75,270,9,261,,,,,, dip net,wet,
+COMU,fledgling,479,1106-22543,Funk,2012,27-Jul-12,70,245,9,236,,,,,, dip net,wet,
+COMU,fledgling,480,1106-22569,Funk,2012,28-Jul-12,68,200,9,191,,,,,, dip net,wet,
+COMU,fledgling,481,1106-22553,Funk,2012,28-Jul-12,72,210,9,201,,,,,, dip net,wet,
+COMU,fledgling,482,1106-22570,Funk,2012,28-Jul-12,79,325,45,280,,,,,, dip net,wet,
+COMU,fledgling,483,1106-22574,Funk,2012,28-Jul-12,71,280,9,271,,,,,, dip net,dry,
+COMU,fledgling,484,1106-22573,Funk,2012,28-Jul-12,69,300,45,255,,,,,, dip net,wet,
+COMU,fledgling,485,1106-22590,Funk,2012,28-Jul-12,63,250,,,,,,,, dip net,dry,
+COMU,fledgling,486,1106-22596,Funk,2012,28-Jul-12,78,305,,,,,,,, dip net,wet,
+COMU,fledgling,487,1106-22585,Funk,2012,28-Jul-12,60,250,,,,,,,, dip net,wet,
+COMU,fledgling,488,1106-22586,Funk,2012,28-Jul-12,60,270,,,,,,,, dip net,,
+COMU,fledgling,489,1106-22580,Funk,2012,28-Jul-12,81,255,9,246,,,,,, dip net,wet,
+COMU,fledgling,490,1106-22597,Funk,2012,28-Jul-12,77,300,,,,,,,, dip net,wet,
+COMU,fledgling,491,1106-22556,Funk,2012,28-Jul-12,55,225,,,,,,,, dip net,,
+COMU,fledgling,492,1106-22562,Funk,2012,28-Jul-12,,300,45,255,,,,,, dip net,,
+COMU,fledgling,493,1106-22593,Funk,2012,28-Jul-12,70,185,9,176,,,,,, dip net,dry,
+COMU,fledgling,494,1106-22594,Funk,2012,28-Jul-12,70,270,9,261,,,,,, dip net,dry,
+COMU,fledgling,495,1106-22560,Funk,2012,28-Jul-12,69,235,9,226,,,,,, dip net,wet,
+COMU,fledgling,496,1106-22564,Funk,2012,28-Jul-12,74,350,45,305,,,,,, dip net,dry,
+COMU,fledgling,497,1106-22561,Funk,2012,28-Jul-12,62,190,9,181,,,,,, dip net,wet,
+COMU,fledgling,498,1106-22552,Funk,2012,28-Jul-12,70,200,9,191,,,,,, dip net,dry,
+COMU,fledgling,499,1106-22579,Funk,2012,28-Jul-12,71,250,9,241,,,,,, dip net,wet,
+COMU,fledgling,500,1106-22551,Funk,2012,28-Jul-12,65,290,45,245,,,,,, dip net,dry,
+COMU,fledgling,501,1106-22577,Funk,2012,28-Jul-12,72,230,9,221,,,,,, dip net,wet,
+COMU,fledgling,502,1106-22555,Funk,2012,28-Jul-12,70,308,45,263,,,,,, dip net,,
+COMU,fledgling,503,1106-22558,Funk,2012,28-Jul-12,73,190,9,181,,,,,, dip net,wet,died later
+COMU,fledgling,504,1106-22575,Funk,2012,28-Jul-12,65,290,45,245,,,,,, dip net,dry,
+COMU,fledgling,505,1106-22567,Funk,2012,28-Jul-12,71,240,9,231,,,,,, dip net,dry,
+COMU,fledgling,506,1106-22554,Funk,2012,28-Jul-12,73,225,9,216,,,,,, dip net,,
+COMU,fledgling,507,1106-22568,Funk,2012,28-Jul-12,59,300,45,255,,,,,, dip net,dry,
+COMU,fledgling,508,1106-22587,Funk,2012,28-Jul-12,63,220,9,211,,,,,, dip net,dry,
+COMU,fledgling,509,1106-22592,Funk,2012,28-Jul-12,69,310,45,265,,,,,, dip net,wet,
+COMU,fledgling,510,1106-22604,Funk,2012,29-Jul-12,71,195,9,186,,,,,, dip net,,no dad
+COMU,fledgling,511,1106-22630,Funk,2012,29-Jul-12,61,205,45,160,,,,,, dip net,,
+COMU,fledgling,512,1106-22640,Funk,2012,29-Jul-12,55,215,9,206,,,,,, dip net,,
+COMU,fledgling,513,1106-22634,Funk,2012,29-Jul-12,74,230,45,185,,,,,, dip net,,
+COMU,fledgling,514,1106-22601,Funk,2012,29-Jul-12,84,255,9,246,,,,,, dip net,,
+COMU,fledgling,515,1106-22605,Funk,2012,29-Jul-12,66,215,9,206,,,,,, dip net,,
+COMU,fledgling,516,1106-22648,Funk,2012,29-Jul-12,62,245,45,200,,,,,, dip net,,
+COMU,fledgling,517,1106-23001,Funk,2013,30-Jul-13,72,163,12,151,,,,,,dip net,DRY,
+COMU,fledgling,518,1106-23008,Funk,2013,30-Jul-13,65,212,12,200,,,,,,dip net,DRY,
+COMU,fledgling,519,1106-23015,Funk,2013,30-Jul-13,64,163,12,151,,,,,,dip net,WET,
+COMU,fledgling,520,1106-23016,Funk,2013,30-Jul-13,62,208,12,196,,,,,,dip net,DRY,
+COMU,fledgling,521,1106-23019,Funk,2013,30-Jul-13,64,173,15,158,,,,,,dip net,DRY,
+COMU,fledgling,522,1106-23021,Funk,2013,30-Jul-13,56,175,15,160,,,,,,dip net,WET,
+COMU,fledgling,523,1106-23022,Funk,2013,30-Jul-13,73,162,15,147,,,,,,dip net,WET,
+COMU,fledgling,524,1106-23024,Funk,2013,30-Jul-13,64,154,12,142,,,,,,dip net,WET,
+COMU,fledgling,525,1106-23025,Funk,2013,30-Jul-13,71,200,15,185,,,,,,dip net,DRY,
+COMU,fledgling,526,1106-23026,Funk,2013,30-Jul-13,59,161,12,149,,,,,,dip net,WET,
+COMU,fledgling,527,1106-23028,Funk,2013,30-Jul-13,69,191,12,179,,,,,,dip net,DRY,
+COMU,fledgling,528,1106-23029,Funk,2013,30-Jul-13,79,194,15,179,,,,,,dip net,WET,
+COMU,fledgling,529,1106-23032,Funk,2013,30-Jul-13,60,139,12,127,,,,,,dip net,DRY,
+COMU,fledgling,530,1106-23033,Funk,2013,30-Jul-13,73,225,15,210,,,,,,dip net,WET,
+COMU,fledgling,531,1106-23034,Funk,2013,30-Jul-13,61,196,15,181,,,,,,dip net,WET,
+COMU,fledgling,532,1106-23039,Funk,2013,30-Jul-13,58,170,12,158,,,,,,dip net,DRY,
+COMU,fledgling,533,1106-23042,Funk,2013,30-Jul-13,76,181,12,169,,,,,,dip net,DRY,found dead on 1 Aug
+COMU,fledgling,535,1106-23045,Funk,2013,30-Jul-13,58,170,12,158,,,,,,dip net,WET,
+COMU,fledgling,536,1106-23046,Funk,2013,30-Jul-13,63,144,12,132,,,,,,dip net,DRY,
+COMU,fledgling,537,1106-23047,Funk,2013,30-Jul-13,66,179,12,167,,,,,,dip net,DRY,
+COMU,fledgling,538,1106-23048,Funk,2013,30-Jul-13,62,172,12,160,,,,,,dip net,WET,
+COMU,fledgling,540,1106-23052,Funk,2013,31-Jul-13,82,240,21,219,,,,,,dip net,WET,
+COMU,fledgling,541,1106-23055,Funk,2013,31-Jul-13,72,173,21,152,,,,,,dip net,WET,
+COMU,fledgling,544,1106-23060,Funk,2013,31-Jul-13,87,202,21,181,,,,,,dip net,WET,
+COMU,fledgling,545,1106-23062,Funk,2013,31-Jul-13,74,172,21,151,,,,,,dip net,DRY,
+COMU,fledgling,546,1106-23065,Funk,2013,31-Jul-13,74,209,21,188,,,,,,dip net,WET,
+COMU,fledgling,547,1106-23067,Funk,2013,31-Jul-13,62,220,21,199,,,,,,dip net,DRY,
+COMU,fledgling,548,1106-23068,Funk,2013,31-Jul-13,70,189,21,168,,,,,,dip net,DRY,
+COMU,fledgling,549,1106-23069,Funk,2013,31-Jul-13,74,180,21,159,,,,,,dip net,WET,
+COMU,fledgling,550,1106-23070,Funk,2013,31-Jul-13,64,153,21,132,,,,,,dip net,WET,
+COMU,fledgling,551,1106-23073,Funk,2013,31-Jul-13,62,170,21,149,,,,,,dip net,WET,
+COMU,fledgling,554,1106-23077,Funk,2013,31-Jul-13,68,214,21,193,,,,,,dip net,WET,
+COMU,fledgling,555,1106-23078,Funk,2013,31-Jul-13,60,184,21,163,,,,,,dip net,damp,
+COMU,fledgling,556,1106-23081,Funk,2013,31-Jul-13,65,199,21,178,,,,,,dip net,DRY,
+COMU,fledgling,534,1106-23042,Funk,2013,1-Aug-13,60,160,12,148,,,,,,dip net,damp,found dead on 4 Aug 2013
+COMU,fledgling,539,1106-23051,Funk,2013,1-Aug-13,66,166,12,154,,,,,,dip net,DRY,
+COMU,fledgling,542,1106-23056,Funk,2013,1-Aug-13,60,166,12,154,,,,,,dip net,WET,
+COMU,fledgling,543,1106-23057,Funk,2013,1-Aug-13,61,172,15,157,,,,,,dip net,DRY,
+COMU,fledgling,552,1106-23075,Funk,2013,1-Aug-13,57,182,14,168,,,,,,dip net,DRY,
+COMU,fledgling,553,1106-23076,Funk,2013,1-Aug-13,62,180,15,165,,,,,,dip net,WET,
+COMU,fledgling,557,1106-23083,Funk,2013,1-Aug-13,67,176,15,161,,,,,,dip net,WET,
+COMU,fledgling,558,1106-23085,Funk,2013,1-Aug-13,67,138,12,126,,,,,,dip net,damp,
+COMU,fledgling,559,1106-23086,Funk,2013,1-Aug-13,58,170,15,155,,,,,,dip net,damp,
+COMU,fledgling,560,1106-23093,Funk,2013,1-Aug-13,61,180,14,166,,,,,,dip net,DRY,
+COMU,fledgling,561,1106-23095,Funk,2013,1-Aug-13,54,178,15,163,,,,,,dip net,damp,
+COMU,fledgling,562,1106-23099,Funk,2013,1-Aug-13,67,198,12,186,,,,,,dip net,WET,
+COMU,fledgling,563,996-91151,Funk,2013,1-Aug-13,51,192,14,178,,,,,,dip net,WET,
+COMU,fledgling,564,996-91152,Funk,2013,1-Aug-13,62,162,14,148,,,,,,dip net,WET,
+COMU,fledgling,565,996-91153,Funk,2013,1-Aug-13,58,220,14,206,,,,,,dip net,WET,
+COMU,fledgling,566,996-91154,Funk,2013,1-Aug-13,68,196,14,182,,,,,,dip net,WET,
+COMU,fledgling,567,996-91155,Funk,2013,1-Aug-13,56,182,14,168,,,,,,dip net,damp,
+COMU,fledgling,568,996-91156,Funk,2013,1-Aug-13,71,180,14,166,,,,,,dip net,WET,
+COMU,fledgling,569,1106-21301,Funk,2014,1-Aug-14,75,268,12,251,,,,,,dip net,Wet,
+COMU,fledgling,570,1106-21302,Funk,2014,1-Aug-14,71,292,13,279,,,,,,dip net,Damp,
+COMU,fledgling,571,1106-21303,Funk,2014,1-Aug-14,68,222,14,208,,,,,,dip net,Damp,Found Aug 2 at fledge site
+COMU,fledgling,572,1106-21304,Funk,2014,1-Aug-14,70,201,14,187,,,,,,dip net,Wet,
+COMU,fledgling,573,1106-21305,Funk,2014,1-Aug-14,60,222,14,208,,,,,,dip net,Dry,
+COMU,fledgling,574,1106-21306,Funk,2014,1-Aug-14,60,230,14,216,,,,,,dip net,Damp,
+COMU,fledgling,575,1106-21307,Funk,2014,1-Aug-14,73,259,11,248,,,,,,dip net,Damp,
+COMU,fledgling,576,1106-21308,Funk,2014,1-Aug-14,53,180,11,169,,,,,,dip net,Damp,
+COMU,fledgling,577,1106-21309,Funk,2014,1-Aug-14,69,245,14,231,,,,,,dip net,Damp,
+COMU,fledgling,578,1106-21310,Funk,2014,1-Aug-14,71,251,14,237,,,,,,dip net,Wet,
+COMU,fledgling,579,1106-21311,Funk,2014,1-Aug-14,72,252,15,237,,,,,,dip net,,
+COMU,fledgling,580,1106-21312,Funk,2014,1-Aug-14,64,240,23,217,,,,,,dip net,Wet,
+COMU,fledgling,581,1106-21313,Funk,2014,1-Aug-14,70,253,23,230,,,,,,dip net,Wet,
+COMU,fledgling,582,1106-21314,Funk,2014,1-Aug-14,72,262,23,239,,,,,,dip net,Wet,
+COMU,fledgling,583,1106-21315,Funk,2014,1-Aug-14,76,259,15,244,,,,,,dip net,Damp,
+COMU,fledgling,584,1106-21316,Funk,2014,2-Aug-14,,,,,,,,,,dip net,,
+COMU,fledgling,585,1106-21317,Funk,2014,2-Aug-14,,,,,,,,,,dip net,,
+COMU,fledgling,586,1106-21318,Funk,2014,2-Aug-14,,,,,,,,,,dip net,,
+COMU,fledgling,587,1106-21319,Funk,2014,2-Aug-14,,,,,,,,,,dip net,,
+COMU,fledgling,588,1106-21320,Funk,2014,2-Aug-14,,,,,,,,,,dip net,,
+COMU,fledgling,589,1106-21321,Funk,2014,2-Aug-14,,,,,,,,,,dip net,,
+COMU,fledgling,590,1106-21322,Funk,2014,2-Aug-14,,,,,,,,,,dip net,,
+COMU,fledgling,591,1106-21323,Funk,2014,2-Aug-14,,,,,,,,,,dip net,,
+COMU,fledgling,592,1106-21324,Funk,2014,2-Aug-14,,,,,,,,,,dip net,,
+COMU,fledgling,593,1106-21325,Funk,2014,2-Aug-14,,,,,,,,,,dip net,,
+COMU,fledgling,594,1106-21326,Funk,2014,2-Aug-14,,,,,,,,,,dip net,,
+COMU,fledgling,595,1106-21327,Funk,2014,2-Aug-14,,,,,,,,,,dip net,,
+COMU,fledgling,596,1106-21328,Funk,2014,2-Aug-14,,,,,,,,,,dip net,,
+COMU,fledgling,597,1106-21329,Funk,2014,2-Aug-14,,,,,,,,,,dip net,,
+COMU,fledgling,598,1106-21330,Funk,2014,2-Aug-14,50,210,10,200,,,,,,dip net,Dry,
+COMU,fledgling,599,1106-21331,Funk,2014,2-Aug-14,71,245,10,235,,,,,,dip net,Damp,
+COMU,fledgling,600,1106-21332,Funk,2014,2-Aug-14,69,280,10,270,,,,,,dip net,Wet,
+COMU,fledgling,601,1106-21333,Funk,2014,2-Aug-14,52,180,4,176,,,,,,dip net,Dry,
+COMU,fledgling,602,1106-21334,Funk,2014,2-Aug-14,62,284,10,274,,,,,,dip net,Dry,
+COMU,fledgling,603,1106-21335,Funk,2014,2-Aug-14,51,268,10,258,,,,,,dip net,,
+COMU,fledgling,604,1106-21336,Funk,2014,2-Aug-14,54,189,10,179,,,,,,dip net,Wet,
+COMU,fledgling,605,1106-21337,Funk,2014,2-Aug-14,54,240,,,,,,,,dip net,Dry,
+COMU,fledgling,606,1106-21338,Funk,2014,2-Aug-14,78,198,30,168,,,,,,dip net,Damp,
+COMU,fledgling,607,1106-21339,Funk,2014,2-Aug-14,70,250,30,220,,,,,,dip net,Dry,
+COMU,fledgling,608,1106-21340,Funk,2014,2-Aug-14,64,240,12,228,,,,,,dip net,Damp,
+COMU,fledgling,609,1106-21341,Funk,2014,2-Aug-14,,133,5,128,,,,,,dip net,,
+COMU,fledgling,610,1106-21342,Funk,2014,2-Aug-14,31,204,12,192,,,,,,dip net,Wet,
+COMU,fledgling,611,1106-21343,Funk,2014,2-Aug-14,68,230,12,218,,,,,,dip net,,
+COMU,fledgling,612,1106-21344,Funk,2014,2-Aug-14,75,156,30,126,,,,,,dip net,Damp,
+COMU,fledgling,613,1106-21345,Funk,2014,2-Aug-14,61,238,12,226,,,,,,dip net,,
+COMU,fledgling,614,1106-21346,Funk,2014,2-Aug-14,80,270,30,240,,,,,,dip net,Dry,
+COMU,fledgling,615,1106-21347,Funk,2014,2-Aug-14,69,230,15,215,,,,,,dip net,Dry,
+COMU,fledgling,616,1106-21348,Funk,2014,2-Aug-14,51,274,32,242,,,,,,dip net,Dry,
+COMU,fledgling,617,1106-21349,Funk,2014,2-Aug-14,71,245,15,230,,,,,,dip net,Dry,
+COMU,fledgling,618,1106-21350,Funk,2014,2-Aug-14,61,249,32,217,,,,,,dip net,Wet,
+COMU,fledgling,619,1106-21351,Funk,2014,2-Aug-14,70,220,15,205,,,,,,dip net,Damp,
+COMU,fledgling,620,1106-21352,Funk,2014,2-Aug-14,70,235,15,220,,,,,,dip net,Dry,
+COMU,fledgling,621,1106-21353,Funk,2014,2-Aug-14,49,254,12,242,,,,,,dip net,Wet,
+COMU,fledgling,622,1106-21354,Funk,2014,2-Aug-14,73,230,15,215,,,,,,dip net,Wet,
+COMU,fledgling,623,1106-21355,Funk,2014,2-Aug-14,68,235,15,220,,,,,,dip net,Wet,
+COMU,fledgling,624,1106-21356,Funk,2014,2-Aug-14,70,225,15,210,,,,,,dip net,,
+COMU,fledgling,625,1106-21357,Funk,2014,2-Aug-14,,,,,,,,,,dip net,,
+COMU,fledgling,626,1106-21358,Funk,2014,2-Aug-14,50,220,15,205,,,,,,dip net,Wet,
+COMU,fledgling,627,1106-21359,Funk,2014,2-Aug-14,78,190,15,175,,,,,,dip net,Dry,
+COMU,fledgling,628,1106-21360,Funk,2014,2-Aug-14,69,205,15,190,,,,,,dip net,Dry,
+COMU,fledgling,629,1106-21361,Funk,2014,3-Aug-14,,,,,,,,,,dip net,,
+COMU,fledgling,630,1106-21362,Funk,2014,3-Aug-14,,,,,,,,,,dip net,,
+COMU,fledgling,631,1106-21363,Funk,2014,3-Aug-14,,,,,,,,,,dip net,,
+COMU,fledgling,632,1106-21364,Funk,2014,3-Aug-14,,,,,,,,,,dip net,,
+COMU,fledgling,633,1106-21365,Funk,2014,3-Aug-14,,,,,,,,,,dip net,,
+COMU,fledgling,634,1106-21366,Funk,2014,3-Aug-14,,,,,,,,,,dip net,,
+COMU,fledgling,635,1106-21367,Funk,2014,3-Aug-14,,,,,,,,,,dip net,,
+COMU,fledgling,636,1106-21368,Funk,2014,3-Aug-14,,,,,,,,,,dip net,,
+COMU,fledgling,637,1106-21369,Funk,2014,3-Aug-14,,,,,,,,,,dip net,,
+COMU,fledgling,638,1106-21370,Funk,2014,3-Aug-14,73,208,15,193,,,,,,dip net,Wet,
+COMU,fledgling,639,1106-21371,Funk,2014,3-Aug-14,65,210,15,195,,,,,,dip net,Wet,
+COMU,fledgling,640,1106-21372,Funk,2014,3-Aug-14,65,220,15,205,,,,,,dip net,Wet,
+COMU,fledgling,641,1106-21373,Funk,2014,3-Aug-14,76,240,15,225,,,,,,dip net,Dry,
+COMU,fledgling,642,1106-21374,Funk,2014,3-Aug-14,72,245,15,230,,,,,,dip net,Dry,
+COMU,fledgling,643,1106-21375,Funk,2014,3-Aug-14,75,250,10,240,,,,,,dip net,Wet,
+COMU,fledgling,644,1106-21376,Funk,2014,3-Aug-14,65,220,15,205,,,,,,dip net,Wet,
+COMU,fledgling,645,1106-21377,Funk,2014,3-Aug-14,60,240,30,210,,,,,,dip net,Wet,
+COMU,fledgling,646,1106-21378,Funk,2014,3-Aug-14,65,208,12,196,,,,,,dip net,Dry,
+COMU,fledgling,647,1106-21379,Funk,2014,3-Aug-14,78,285,30,255,,,,,,dip net,,
+COMU,fledgling,648,1106-21380,Funk,2014,3-Aug-14,73,235,12,223,,,,,,dip net,,
+COMU,fledgling,649,1106-21381,Funk,2014,3-Aug-14,80,241,15,226,,,,,,dip net,Dry,Band fell off - Found
+COMU,fledgling,650,1106-21382,Funk,2014,3-Aug-14,53,230,15,215,,,,,,dip net,Wet,
+COMU,fledgling,651,1106-21383,Funk,2014,3-Aug-14,41,240,15,225,,,,,,dip net,,
+COMU,fledgling,652,1106-21384,Funk,2014,3-Aug-14,69,270,32,238,,,,,,dip net,,
+COMU,fledgling,653,1106-21385,Funk,2014,3-Aug-14,56,250,32,218,,,,,,dip net,Wet,
+COMU,fledgling,654,1106-21386,Funk,2014,3-Aug-14,65,220,15,205,,,,,,dip net,Dry,
+COMU,fledgling,655,1106-21387,Funk,2014,3-Aug-14,74,265,15,250,,,,,,dip net,Wet,
+COMU,fledgling,656,1106-21388,Funk,2014,3-Aug-14,73,290,32,258,,,,,,dip net,Wet,
+COMU,fledgling,657,1106-21389,Funk,2014,3-Aug-14,47,200,15,185,,,,,,dip net,Dry,
+COMU,fledgling,658,1106-21390,Funk,2014,3-Aug-14,65,185,15,170,,,,,,dip net,Dry,
+COMU,fledgling,659,1106-21391,Funk,2014,3-Aug-14,71,200,12,188,,,,,,dip net,Wet,
+COMU,fledgling,660,1106-21392,Funk,2014,4-Aug-14,71,220,10,210,,,,,,dip net,Dry,
+COMU,fledgling,661,1106-21393,Funk,2014,4-Aug-14,80,220,10,210,,,,,,dip net,Damp,
+COMU,fledgling,662,1106-21394,Funk,2014,4-Aug-14,75,245,15,230,,,,,,dip net,Wet,
+COMU,fledgling,663,1106-21395,Funk,2014,7-Aug-14,,,,,,,,,,dip net,,
+COMU,fledgling,664,1106-21396,Funk,2014,7-Aug-14,,,,,,,,,,dip net,,
+COMU,fledgling,665,1106-21397,Funk,2014,7-Aug-14,,,,,,,,,,dip net,,
+COMU,fledgling,666,1106-21398,Funk,2014,7-Aug-14,,,,,,,,,,dip net,,
+COMU,fledgling,667,1106-21399,Funk,2014,7-Aug-14,,,,,,,,,,dip net,,
+COMU,fledgling,668,1106-21400,Funk,2014,7-Aug-14,,,,,,,,,,dip net,,
+COMU,fledgling,669,1166-02601,Funk,2016,9-Aug-16,58,150,5,145,,,,,,dip net,Dry,
+COMU,fledgling,670,1166-02602,Funk,2016,9-Aug-16,61,175,5,170,,,,,,dip net,Dry,
+COMU,fledgling,671,1166-02603,Funk,2016,9-Aug-16,64,190,5,185,,,,,,dip net,Dry,
+COMU,fledgling,672,1166-02604,Funk,2016,9-Aug-16,40,152,5,147,,,,,,dip net,Dry,
+COMU,fledgling,673,1166-02605,Funk,2016,9-Aug-16,68,165,5,160,,,,,,dip net,Dry,
+COMU,fledgling,674,1166-02606,Funk,2016,9-Aug-16,70,180,5,175,,,,,,dip net,Dry,
+COMU,fledgling,675,1166-02607,Funk,2016,9-Aug-16,68,168,5,163,,,,,,dip net,Dry,
+COMU,fledgling,676,1166-02608,Funk,2016,9-Aug-16,50,152,5,147,,,,,,dip net,Dry,
+COMU,fledgling,677,1166-02609,Funk,2016,9-Aug-16,66,170,5,165,,,,,,dip net,Dry,
+COMU,fledgling,678,1166-02610,Funk,2016,9-Aug-16,67,192,5,187,,,,,,dip net,Wet,
+COMU,fledgling,679,1166-02661,Funk,2016,10-Aug-16,56,148,5,143,,,,,,dip net,Wet,
+COMU,fledgling,680,1166-02653,Funk,2016,10-Aug-16,54,145,28,117,,,,,,dip net,Dry,
+COMU,fledgling,681,1166-02637,Funk,2016,10-Aug-16,62,129,5,124,,,,,,dip net,Dry,
+COMU,fledgling,682,1166-02657,Funk,2016,10-Aug-16,52,120,5,115,,,,,,dip net,Dry,
+COMU,fledgling,683,1166-02655,Funk,2016,10-Aug-16,52,144,28,116,,,,,,dip net,Dry,
+COMU,fledgling,684,1166-02665,Funk,2016,10-Aug-16,54,139,5,134,,,,,,dip net,Muddy/Wet,
+COMU,fledgling,685,1166-02669,Funk,2016,10-Aug-16,60,170,28,142,,,,,,dip net,Dry,
+COMU,fledgling,686,1166-02652,Funk,2016,10-Aug-16,56,152,5,147,,,,,,dip net,Dry,
+COMU,fledgling,687,1166-02645,Funk,2016,10-Aug-16,58,159,28,131,,,,,,dip net,Dry,
+COMU,fledgling,688,1166-02694,Funk,2016,10-Aug-16,60,158,5,153,,,,,,dip net,Wet,
+COMU,fledgling,689,1166-02687/1166-02681,Funk,2016,10-Aug-16,69,170,28,142,,,,,,dip net,Dry,both were written down as same band number
+COMU,fledgling,690,1166-02687/1166-02681,Funk,2016,10-Aug-16,50,145,28,117,,,,,,dip net,Dry,see above
+COMU,fledgling,691,1166-02659,Funk,2016,10-Aug-16,56,158,28,130,,,,,,dip net,Wet,
+COMU,fledgling,692,1216-01288,Funk,2017,8-Aug-17,50,150,9,141,,,,,,,dry,
+COMU,fledgling,693,1216-01289,Funk,2017,8-Aug-17,40,205,9,196,,,,,,,dry,
+COMU,fledgling,694,1216-01290,Funk,2017,8-Aug-17,45,190,9,181,,,,,,,dry,
+COMU,fledgling,695,,Funk,2017,9-Aug-17,45,165,9,156,,,,,,,wet,
+COMU,fledgling,696,,Funk,2017,10-Aug-17,42,175,24,151,,,,,,,wet,"was banded origilly with 1216-01322 but found band next day, must have fell off"
+COMU,fledgling,697,1216-01324,Funk,2017,10-Aug-17,48,170,24,146,,,,,,,wet,
+COMU,fledgling,698,1216-01325,Funk,2017,10-Aug-17,45,215,9,206,,,,,,,wet,
+COMU,fledgling,699,1216-01326,Funk,2017,10-Aug-17,52,170,9,161,,,,,,,wet,
+COMU,fledgling,700,1216-01328,Funk,2017,10-Aug-17,45,210,27,183,,,,,,,dry,
+COMU,fledgling,701,1216-01330,Funk,2017,10-Aug-17,50,215,27,188,,,,,,,wet,
+COMU,fledgling,702,1216-01331,Funk,2017,10-Aug-17,45,180,9,171,,,,,,,wet,
+COMU,fledgling,703,1216-01351,Funk,2017,11-Aug-17,55,170,24,146,,,,,,,dry,
+COMU,fledgling,704,1216-01352,Funk,2017,11-Aug-17,45,155,9,146,,,,,,,dry,
+COMU,fledgling,705,,Funk,2017,11-Aug-17,48,170,0,170,,,,,,,wet,found dead
+COMU,fledgling,706,1216-01322,Funk,2017,11-Aug-17,53,220,29,191,,,,,,,damp,
+COMU,fledgling,707,1216-01353,Funk,2017,11-Aug-17,44,210,24,186,,,,,,,damp,
+COMU,fledgling,708,1216-01355,Funk,2017,11-Aug-17,52,205,9,196,,,,,,,dry,
+COMU,fledgling,709,1216-1356,Funk,2017,11-Aug-17,45,195,9,186,,,,,,,damp,
+COMU,fledgling,710,1216-1357,Funk,2017,11-Aug-17,44,175,29,146,,,,,,,dry,
+COMU,fledgling,711,1216-1358,Funk,2017,11-Aug-17,40,175,9,166,,,,,,,wet,
