@@ -5,11 +5,11 @@ template<class Type>
 Type objective_function<Type>::operator() () {
     
     // Data
-    DATA_VECTOR(y);   // observations to be averaged by group
-    DATA_VECTOR(x);   // independent variable for group means
-    DATA_IVECTOR(g);  // index of group for each observation
-    DATA_INTEGER(Ny); // number of observations
-    DATA_INTEGER(Ng); // number of groups
+    DATA_VECTOR(y);                  // observations to be averaged by group
+    DATA_VECTOR(x);                  // independent variable for group means
+    DATA_IVECTOR(g);                 // index of group for each observation
+    DATA_INTEGER(Ny);                // number of observations
+    DATA_INTEGER(Ng);                // number of groups
 
     // Parameters
     PARAMETER(alpha);                   // regression parameters

@@ -56,19 +56,21 @@ g <- g + theme_cowplot(font_size = 10) + theme(axis.text.x = element_text(angle 
 print(g)
 save_plot("analysis/output/AdultWeights.png", g, base_aspect_ratio = 1.4, base_width = 6, bg = "transparent") # make room for figure legend)
 
-## converted to kg to help model converge
+## scaled to help model converge
+weights <- adw[!is.na(adw$bird_weight), ]
 adult_model <- fit_model(
-  year = adw$year[!is.na(adw$bird_weight)],
-  response = adw$bird_weight[!is.na(adw$bird_weight)] / 1000
+  year = weights$year,
+  response = weights$bird_weight / 100
 )
-plot_model(adult_model, ylab = "Mass (g)", scale = 1000)
+adult_model$sd_rep # convergance issues
+plot_model(adult_model, ylab = "Mass (g)", scale = 100)
 ggsave("analysis/output/adult_mass_trend.png", height = 5, width = 7)
-get_beta(adult_model) * 1000
+get_beta(adult_model) * 100
 
 
 ## Chick and fledgling condition ----
 flc <- filter(cc, stage != "adult" & year >= 1980) %>%
-  select(year, condition, stage, bird_weight)
+  select(year, condition, stage, bird_weight, winglength)
 y <- 1990:2017
 flc <- rbind(flc, data.frame(year = y[which(!y %in% sort(as.integer(unique(flc$year))))], condition = NA, stage = "chick"))
 # get rid of 2 outliers
@@ -105,7 +107,7 @@ chick_cond %>%
   summarize(N = n())
 chick_cond <- chick_cond[chick_cond$year != 1998, ] # drop 98 because of low sample size
 chick_model <- fit_model(year = chick_cond$year, response = chick_cond$condition)
-chick_model$sd_rep # not happy. too short of a time series??
+chick_model$sd_rep
 plot_model(chick_model, ylab = "Condition (g/cm)", scale = 1)
 
 fledg_cond <- na.omit(flc[flc$stage == "fledgling", ])
@@ -124,6 +126,12 @@ fledg_model$sd_rep
 plot_model(fledg_model, ylab = "Mass (g)", scale = 100)
 get_beta(fledg_model) * 100
 ggsave("analysis/output/fledgling_mass_trend.png", height = 5, width = 7) # key figure
+
+fledg_model <- fit_model(year = fledg_cond$year, response = fledg_cond$winglength / 10)
+fledg_model$sd_rep
+plot_model(fledg_model, ylab = "Mass (g)", scale = 10)
+get_beta(fledg_model) * 10
+ggsave("analysis/output/fledgling_winglength_trend.png", height = 5, width = 7) # key figure
 
 
 fc_cond <- na.omit(flc)

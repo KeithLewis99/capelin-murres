@@ -17,7 +17,7 @@ fit_model <- function(year = NULL, response = NULL) {
     Ny = length(response),
     Ng = nlevels(factor(year))
   )
-  tmb_data$x <- sort(unique(tmb_data$g))
+  tmb_data$x <- sort(unique(year)) - min(year)
   tmb_data$years <- sort(unique(year))
   
   start_par <- list(
