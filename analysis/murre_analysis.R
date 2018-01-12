@@ -68,7 +68,7 @@ get_beta(adult_model) * 1000
 
 ## Chick and fledgling condition ----
 flc <- filter(cc, stage != "adult" & year >= 1980) %>%
-  select(year, condition, stage)
+  select(year, condition, stage, bird_weight)
 y <- 1990:2017
 flc <- rbind(flc, data.frame(year = y[which(!y %in% sort(as.integer(unique(flc$year))))], condition = NA, stage = "chick"))
 # get rid of 2 outliers
@@ -178,6 +178,8 @@ print(ww)
 save_plot("analysis/output/ChickFledglingWlength.png", ww, base_aspect_ratio = 1.4, base_width = 6, bg = "transparent") # make room for figure legend)
 
 
+## Bootstrap ----------
+
 ## Bootstrap for adult and fledgling mass during 2014 and 2016
 quantile(sample(x = na.omit(adw[which(adw$year == 2014 & adw$stage == 'adult'), 'bird_weight']), replace = T, size = 100000), probs = c(0.025, 0.975))
 quantile(sample(x = na.omit(adw[which(adw$year == 2016 & adw$stage == 'adult'), 'bird_weight']), replace = T, size = 100000), probs = c(0.025, 0.975))
@@ -185,5 +187,81 @@ quantile(sample(x = na.omit(adw[which(adw$year == 2014 & adw$stage == 'fledgling
 quantile(sample(x = na.omit(adw[which(adw$year == 2016 & adw$stage == 'fledgling'), 'bird_weight']), replace = T, size = 100000), probs = c(0.025, 0.975))
 
 
+library(data.table)
+
+## bootstrap adult and fledgling mass by year
+weights <- data.table(cc[!is.na(cc$bird_weight), c("year", "stage", "bird_weight")])
+weights <- weights[!(weights$stage == "fledgling" & weights$bird_weight > 500)] # drop outlier
+
+boot <- vector("list", 1000)
+for (i in seq_along(boot)) {
+  boot[[i]] <- weights[, list(rep = i, bird_weight = bird_weight[sample.int(.N, replace = TRUE)]), 
+                       by = c("year", "stage")]
+}
+boot <- rbindlist(boot)
+
+boot_means <- boot[, list(mean = mean(bird_weight)), by = c("year", "stage", "rep")]
+boot_ci <- boot_means[, list(median = quantile(mean, 0.5), 
+                             lower = quantile(mean, 0.025),
+                             upper = quantile(mean, 0.975)), by = c("year", "stage")]
+
+weights %>% 
+  filter(stage == "fledgling") %>% 
+  ggplot(aes(x = year, y = bird_weight)) + geom_point()
+
+boot_means %>% 
+  filter(stage == "fledgling") %>% 
+  ggplot(aes(x = year, y = mean, group = year)) +
+  geom_violin(draw_quantiles = 0.5) + theme_bw()
+
+boot_ci %>% 
+  filter(stage == "fledgling") %>% 
+  ggplot(aes(x = year, y = median, group = year)) +
+  geom_errorbar(aes(ymin = lower, ymax = upper), width = 0) + 
+  geom_point() + theme_bw() +
+  xlab("Year") + ylab("Mass (g)") +
+  scale_x_continuous(breaks = seq(1980, 2017, 2)) +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = 0, size = 8))
+ggsave("analysis/output/fledgling_mass_boot_means.png", height = 5, width = 7)
+
+boot_ci %>% 
+  filter(stage == "adult" & year > 2004) %>% 
+  ggplot(aes(x = year, y = median, group = year)) +
+  geom_errorbar(aes(ymin = lower, ymax = upper), width = 0) + 
+  geom_point() + theme_bw() +
+  xlab("Year") + ylab("Mass (g)") +
+  scale_x_continuous(breaks = seq(1980, 2017, 1)) +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = 0, size = 8))
+ggsave("analysis/output/adult_mass_boot_means.png", height = 5, width = 7)
+
+
+
+
+## bootstrap fledgling condition by year
+cond <- data.table(cc[!is.na(cc$condition) & cc$stage != "adult", 
+                         c("year", "stage", "condition")])
+cond <- cond[!(cond$condition > 8)] # drop outliers
+
+boot <- vector("list", 1000)
+for (i in seq_along(boot)) {
+  boot[[i]] <- cond[, list(rep = i, condition = condition[sample.int(.N, replace = TRUE)]), 
+                       by = c("year", "stage")]
+}
+boot <- rbindlist(boot)
+
+boot_means <- boot[, list(mean = mean(condition)), by = c("year", "stage", "rep")]
+boot_ci <- boot_means[, list(median = quantile(mean, 0.5), 
+                             lower = quantile(mean, 0.025),
+                             upper = quantile(mean, 0.975)), by = c("year", "stage")]
+
+dodge <- position_dodge(width = 1)
+boot_ci %>% 
+  ggplot(aes(x = year, y = median, colour = stage)) +
+  geom_errorbar(aes(ymin = lower, ymax = upper), width = 0, position = dodge) + 
+  geom_point(position = dodge) + theme_bw() +
+  xlab("Year") + ylab("Condition (g/cm)") +
+  scale_x_continuous(breaks = seq(1980, 2017, 2)) +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = 0, size = 8))
+ggsave("analysis/output/combined_condition_boot_means.png", height = 5, width = 8)
 
 
