@@ -129,7 +129,7 @@ ggsave("analysis/output/fledgling_mass_trend.png", height = 5, width = 7) # key 
 
 fledg_model <- fit_model(year = fledg_cond$year, response = fledg_cond$winglength / 10)
 fledg_model$sd_rep
-plot_model(fledg_model, ylab = "Mass (g)", scale = 10)
+plot_model(fledg_model, ylab = "Wing length (cm)", scale = 10)
 get_beta(fledg_model) * 10
 ggsave("analysis/output/fledgling_winglength_trend.png", height = 5, width = 7) # key figure
 
