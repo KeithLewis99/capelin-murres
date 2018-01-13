@@ -5,6 +5,7 @@ library(cowplot)
 library(dplyr)
 
 library(TMB)
+library(tmbstan)
 
 TMB::compile("inst/fit.cpp")
 dyn.load("inst/fit")
@@ -25,6 +26,22 @@ cc$bird_weight <- as.numeric(cc$bird_weight)
 cc$condition <- cc$bird_weight / cc$winglength
 cc[which(cc$stage == "Adult"), "stage"] <- "adult"
 
+cc %>% 
+  filter(stage != "adult") %>% 
+  ggplot(aes(x = bird_weight, 
+             y = winglength, colour = stage)) +
+  geom_point() + xlim(0, 400) + theme_bw() +
+  xlab("Mass (g)") + ylab("Wing length (cm)")
+ggsave("analysis/output/chick_mass_wing_relationship.png")
+
+d <- cc[cc$year == 1998, c("stage", "bird_weight", "winglength")]
+nrow(d)
+nrow(unique(d))
+
+## TODO:
+## - Figure out what's going on with the 1998 data
+## - Filter out the small chicks outside linear portion of growth
+## - Fix spelling of Fulton's K - DONE
 
 ## Look at adult weights only ----
 adw <- filter(cc, stage == "adult" & year > 2000)
@@ -56,21 +73,37 @@ g <- g + theme_cowplot(font_size = 10) + theme(axis.text.x = element_text(angle 
 print(g)
 save_plot("analysis/output/AdultWeights.png", g, base_aspect_ratio = 1.4, base_width = 6, bg = "transparent") # make room for figure legend)
 
+
 ## scaled to help model converge
+s <- 128
 weights <- adw[!is.na(adw$bird_weight), ]
 adult_model <- fit_model(
   year = weights$year,
-  response = weights$bird_weight / 100
+  response = weights$bird_weight / s
 )
 adult_model$sd_rep # convergance issues
-plot_model(adult_model, ylab = "Mass (g)", scale = 100)
+plot_model(adult_model, ylab = "Mass (g)", scale = s)
 ggsave("analysis/output/adult_mass_trend.png", height = 5, width = 7)
-get_beta(adult_model) * 100
+get_beta(adult_model) * s
+
+fit <- tmbstan(adult_model$obj, chains = 3)
+# traceplot(fit, pars = names(adult_model$obj$par), inc_warmup = FALSE)
+# fit
+get_beta(adult_model) * s
+summary(fit)$summary["beta", c("mean", "2.5%", "97.5%")] * s
+## running into a convergence issues here. I think it is because of the low
+## beta value. Fiddled with scale. Still not happy with the gradiant, but param
+## estimates are similar to those obtained from tmbstan
 
 
 ## Chick and fledgling condition ----
-flc <- filter(cc, stage != "adult" & year >= 1980) %>%
+
+flc <- filter(cc, stage != "adult" & year >= 1990 & winglength > 30) %>%
   select(year, condition, stage, bird_weight, winglength)
+## filtered out chicks with winglength <= 30 cm because they have yet to enter
+## the linear portion of the growth curve. The exclusion hleps make fledgling and
+## chick condition values comprable
+
 y <- 1990:2017
 flc <- rbind(flc, data.frame(year = y[which(!y %in% sort(as.integer(unique(flc$year))))], condition = NA, stage = "chick"))
 # get rid of 2 outliers
@@ -98,7 +131,6 @@ g <- ggplot(flc, aes(as.factor(year), condition, fill = stage)) +
 save_plot("analysis/output/ChickFledglingCondition_dodge.png", g, 
           base_aspect_ratio = 1.4, base_width = 8, bg = "transparent",
           dpi = 600)
-
 
 
 chick_cond <- na.omit(flc[flc$stage == "chick", ])
@@ -142,17 +174,13 @@ fc_model <- fit_model(year = fc_cond$year, response = fc_cond$condition)
 fc_model$sd_rep
 plot_model(fc_model, ylab = "Condition (g/cm)", scale = 1)
 get_beta(fc_model)
-#ggsave("analysis/output/combined_chick_condition_trend.png", height = 5, width = 7)
-## not comfortable with this analysis because the chick data appear to be driving the trend
-## ...and the gradual nature of the trend does not make biological sense.
-## our hypothesis is that chick condition would drop under reduced capelin abundance
-## abundance reduced in the early 90's, yet the pattern in condition does not reflect this on/off change
-
+ggsave("analysis/output/combined_chick_condition_trend.png", height = 5, width = 7)
 
 
 ## Chick and fledgling weight ----
 flc <- filter(cc, stage != "adult") %>%
-  select(year, condition, stage, bird_weight)
+  select(year, condition, stage, bird_weight, winglength)
+
 y <- 1990:2017
 flc <- rbind(flc, data.frame(year = y[which(!y %in% sort(as.integer(unique(flc$year))))], condition = NA, stage = "chick", bird_weight = NA))
 flc[which(flc$condition > 9), "condition"] <- NA
@@ -249,6 +277,7 @@ ggsave("analysis/output/adult_mass_boot_means.png", height = 5, width = 7)
 cond <- data.table(cc[!is.na(cc$condition) & cc$stage != "adult", 
                          c("year", "stage", "condition")])
 cond <- cond[!(cond$condition > 8)] # drop outliers
+cond <- cond[cond$year > 1990, ]
 
 boot <- vector("list", 1000)
 for (i in seq_along(boot)) {

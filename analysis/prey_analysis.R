@@ -150,7 +150,7 @@ ggplot() +
     geom_point(aes(x = year, y = fit), data = preds) + 
     geom_line(aes(x = year, y = linear_fit), data = preds2) +
     scale_x_continuous(breaks = min(preds$year):max(preds$year), expand = c(0.01, 0)) +
-    xlab("Year") + ylab("Condition (Foltun's K)") +
+    xlab("Year") + ylab("Condition (Fulton's K)") +
     theme_bw() + theme(axis.text.x = element_text(angle = 90, vjust = 0.5))
 # ggsave("analysis/output/condition_trend.png", height = 5, width = 8)
 
@@ -165,7 +165,7 @@ condition_model <- fit_model(year = whole_capelin$year, response = whole_capelin
 weight_model <- fit_model(year = whole_capelin$year, response = whole_capelin$mass)
 length_model <- fit_model(year = whole_capelin$year, response = whole_capelin$length)
 
-p1 <- plot_model(condition_model, ylab = "Condition (Foltun's K)")
+p1 <- plot_model(condition_model, ylab = "Condition (Fulton's K)")
 p2 <- plot_model(weight_model, ylab = "Mass (g)")
 p3 <- plot_model(length_model, ylab = "Length (cm)")
 remove_x <- theme(axis.title.x = element_blank(),

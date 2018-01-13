@@ -4,6 +4,7 @@
 #'
 #' @param year        Year vector
 #' @param response    Response vector
+#' @param start_par   List of start parameters
 #'
 #' @return
 #' @export
