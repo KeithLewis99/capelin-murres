@@ -31,7 +31,7 @@ cc %>%
   ggplot(aes(x = bird_weight, 
              y = winglength, colour = stage)) +
   geom_point() + xlim(0, 400) + theme_bw() +
-  xlab("Mass (g)") + ylab("Wing length (cm)")
+  xlab("Mass (g)") + ylab("Wing length (mm)")
 ggsave("analysis/output/chick_mass_wing_relationship.png")
 
 d <- cc[cc$year == 1998, c("stage", "bird_weight", "winglength")]
@@ -88,6 +88,7 @@ get_beta(adult_model) * s
 
 fit <- tmbstan(adult_model$obj, chains = 3)
 # traceplot(fit, pars = names(adult_model$obj$par), inc_warmup = FALSE)
+# pairs(fit)
 # fit
 get_beta(adult_model) * s
 summary(fit)$summary["beta", c("mean", "2.5%", "97.5%")] * s
@@ -100,7 +101,7 @@ summary(fit)$summary["beta", c("mean", "2.5%", "97.5%")] * s
 
 flc <- filter(cc, stage != "adult" & year >= 1990 & winglength > 30) %>%
   select(year, condition, stage, bird_weight, winglength)
-## filtered out chicks with winglength <= 30 cm because they have yet to enter
+## filtered out chicks with winglength <= 30 mm because they have yet to enter
 ## the linear portion of the growth curve. The exclusion hleps make fledgling and
 ## chick condition values comprable
 
@@ -113,7 +114,7 @@ summary(lm(condition ~ as.integer(year) + as.factor(stage), data = flc))
 g <- ggplot(flc, aes(as.factor(year), condition))
 g <- g + geom_violin()
 g <- g + stat_summary(aes(as.factor(year)), fun.y = mean, geom = "point", fill = "black", shape = 21, size = 1.5)
-g <- g + xlab("Year") + ylab("Condition (g/cm)")
+g <- g + xlab("Year") + ylab("Condition (g/mm)")
 g <- g + facet_grid(stage ~ ., scales = "free")
 g <- g + theme_bw() + theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank())
 g <- g + theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = 0, size = 8))
@@ -126,7 +127,7 @@ dodge <- position_dodge(width = 1)
 g <- ggplot(flc, aes(as.factor(year), condition, fill = stage)) +
   geom_violin(position = dodge, draw_quantiles = 0.5) +
   #geom_boxplot(width = 0.1, outlier.colour = "grey", outlier.size = 0, position = dodge) +
-  theme_bw() + xlab("Year") + ylab("Condition (g/cm)") +
+  theme_bw() + xlab("Year") + ylab("Condition (g/mm)") +
   theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = 0, size = 8))
 save_plot("analysis/output/ChickFledglingCondition_dodge.png", g, 
           base_aspect_ratio = 1.4, base_width = 8, bg = "transparent",
@@ -140,7 +141,7 @@ chick_cond %>%
 chick_cond <- chick_cond[chick_cond$year != 1998, ] # drop 98 because of low sample size
 chick_model <- fit_model(year = chick_cond$year, response = chick_cond$condition)
 chick_model$sd_rep
-plot_model(chick_model, ylab = "Condition (g/cm)", scale = 1)
+plot_model(chick_model, ylab = "Condition (g/mm)", scale = 1)
 
 fledg_cond <- na.omit(flc[flc$stage == "fledgling", ])
 fledg_cond %>%
@@ -149,7 +150,7 @@ fledg_cond %>%
 fledg_cond <- fledg_cond[fledg_cond$year != 1997, ] # drop 97 because of low sample size
 fledg_model <- fit_model(year = fledg_cond$year, response = fledg_cond$condition)
 fledg_model$sd_rep
-plot_model(fledg_model, ylab = "Condition (g/cm)", scale = 1)
+plot_model(fledg_model, ylab = "Condition (g/mm)", scale = 1)
 get_beta(fledg_model)
 ggsave("analysis/output/fledgling_condition_trend.png", height = 5, width = 7)
 
@@ -161,7 +162,7 @@ ggsave("analysis/output/fledgling_mass_trend.png", height = 5, width = 7) # key 
 
 fledg_model <- fit_model(year = fledg_cond$year, response = fledg_cond$winglength / 10)
 fledg_model$sd_rep
-plot_model(fledg_model, ylab = "Wing length (cm)", scale = 10)
+plot_model(fledg_model, ylab = "Wing length (mm)", scale = 10)
 get_beta(fledg_model) * 10
 ggsave("analysis/output/fledgling_winglength_trend.png", height = 5, width = 7) # key figure
 
@@ -172,7 +173,7 @@ fc_cond %>%
   summarize(N = n())
 fc_model <- fit_model(year = fc_cond$year, response = fc_cond$condition)
 fc_model$sd_rep
-plot_model(fc_model, ylab = "Condition (g/cm)", scale = 1)
+plot_model(fc_model, ylab = "Condition (g/mm)", scale = 1)
 get_beta(fc_model)
 ggsave("analysis/output/combined_chick_condition_trend.png", height = 5, width = 7)
 
@@ -205,7 +206,7 @@ wl <- rbind(wl, data.frame(year = y[which(!y %in% sort(as.integer(unique(wl$year
 ww <- ggplot(wl, aes(as.factor(year), winglength))
 ww <- ww + geom_violin()
 ww <- ww + stat_summary(aes(as.factor(year)), fun.y = mean, geom = "point", fill = "black", shape = 21, size = 1.5)
-ww <- ww + xlab("Year") + ylab("Wing length (cm)")
+ww <- ww + xlab("Year") + ylab("Wing length (mm)")
 ww <- ww + facet_grid(stage ~ ., scales = "free")
 # w <- w + theme_cowplot(font_size = 10) + theme(axis.text.x = element_text(angle = 90, vjust = 0.5, size = 8))
 ww <- ww + theme_bw() + theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank())
@@ -296,7 +297,7 @@ boot_ci %>%
   ggplot(aes(x = year, y = median, colour = stage)) +
   geom_errorbar(aes(ymin = lower, ymax = upper), width = 0, position = dodge) + 
   geom_point(position = dodge) + theme_bw() +
-  xlab("Year") + ylab("Condition (g/cm)") +
+  xlab("Year") + ylab("Condition (g/mm)") +
   scale_x_continuous(breaks = seq(1980, 2017, 2)) +
   theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = 0, size = 8))
 ggsave("analysis/output/combined_condition_boot_means.png", height = 5, width = 8)
