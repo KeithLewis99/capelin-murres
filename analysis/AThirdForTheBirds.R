@@ -10,7 +10,7 @@ normalize <- function(x){
   z <- (x - mean(x, na.rm = T)) / sd(x, na.rm = T)
   z
 }
-## function funct respose type II
+## function funct respose, if delta = 1 then it is type II, if delta = 2 then it is type III
 funcresponse <- function (x, a, h, delta) {(a*(x^delta))/(1 + a*h*(x^delta))}
 
 ## normalize capelin biomas ----
