@@ -95,7 +95,7 @@ prey$length <- ifelse(is.na(prey$fork_length),
 prey$condition <- 1000 * (prey$mass / prey$length ^ 3)
 
 whole_capelin <- prey[prey$prey == "capelin" & grepl("^fresh|^eyeless", prey$digestion),
-                   c("year", "month", "day", "mass", "length", "condition")]
+                   c("year", "month", "day", "mass", "length", "condition", 'prey_sex','prey_maturity')]
 whole_capelin <- na.omit(whole_capelin)
 whole_capelin <- whole_capelin[whole_capelin$condition < 10, ] # condition values > 10 assumed to be a measurement error
 whole_capelin <- whole_capelin[whole_capelin$length > 9, ] # lengths less than 9 are assumed to be an error
@@ -164,6 +164,31 @@ ggplot() +
 condition_model <- fit_model(year = whole_capelin$year, response = whole_capelin$condition)
 weight_model <- fit_model(year = whole_capelin$year, response = whole_capelin$mass)
 length_model <- fit_model(year = whole_capelin$year, response = whole_capelin$length)
+
+p1 <- plot_model(condition_model, ylab = "Condition (Fulton's K)")
+p2 <- plot_model(weight_model, ylab = "Mass (g)")
+p3 <- plot_model(length_model, ylab = "Length (cm)")
+remove_x <- theme(axis.title.x = element_blank(),
+                  axis.text.x = element_blank(),
+                  axis.ticks.x = element_blank())
+cowplot::plot_grid(p1 + remove_x, p2 + remove_x, p3, 
+                   ncol = 1, labels = "AUTO", 
+                   rel_heights = c(0.8, 0.8, 1),
+                   align = "v")
+cowplot::ggsave("analysis/output/condition_trend.png", height = 10, width = 7)
+
+get_beta(condition_model)
+get_beta(weight_model)
+get_beta(length_model)
+
+
+## custom TMB analysis of condition for spent females--------------------------------------------
+
+spentf <- subset(whole_capelin, prey_maturity == 'spent' & prey_sex == 'female')
+
+condition_model <- fit_model(year = spentf$year, response = spentf$condition)
+weight_model <- fit_model(year = spentf$year, response = spentf$mass)
+length_model <- fit_model(year = spentf$year, response = spentf$length)
 
 p1 <- plot_model(condition_model, ylab = "Condition (Fulton's K)")
 p2 <- plot_model(weight_model, ylab = "Mass (g)")

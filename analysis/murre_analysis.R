@@ -16,7 +16,10 @@ source("R/fit.R")
 ############################
 
 ## read data ----
-cc <- read.csv("data-raw/COMU_condition_consolidated.csv", header = T, as.is = T)
+cc <- read.csv("data-raw/COMU_condition_june2018.csv", header = T, as.is = T)
+
+cc <- subset(cc, rec != "")
+cc$year <- as.numeric(cc$year)  
 
 ## manipulate data ----
 cc <- subset(cc, colony == "Funk")
@@ -32,7 +35,7 @@ cc %>%
              y = winglength, colour = stage)) +
   geom_point() + xlim(0, 400) + theme_bw() +
   xlab("Mass (g)") + ylab("Wing length (mm)")
-ggsave("analysis/output/chick_mass_wing_relationship.png")
+#ggsave("analysis/output/chick_mass_wing_relationship.png")
 
 d <- cc[cc$year == 1998, c("stage", "bird_weight", "winglength")]
 nrow(d)
@@ -71,7 +74,7 @@ g <- g + stat_summary(aes(as.factor(year)), fun.y = mean, geom = "point", fill =
 g <- g + xlab("Year") + ylab("Body weight (g)")
 g <- g + theme_cowplot(font_size = 10) + theme(axis.text.x = element_text(angle = 90, vjust = 0.5, size = 8))
 print(g)
-save_plot("analysis/output/AdultWeights.png", g, base_aspect_ratio = 1.4, base_width = 6, bg = "transparent") # make room for figure legend)
+#save_plot("analysis/output/AdultWeights.png", g, base_aspect_ratio = 1.4, base_width = 6, bg = "transparent") # make room for figure legend)
 
 
 ## scaled to help model converge
@@ -106,21 +109,21 @@ flc <- filter(cc, stage != "adult" & year >= 1990 & winglength > 30) %>%
 ## chick condition values comprable
 
 y <- 1990:2017
-flc <- rbind(flc, data.frame(year = y[which(!y %in% sort(as.integer(unique(flc$year))))], condition = NA, stage = "chick"))
+flc <- rbind(flc, data.frame(year = y[which(!y %in% sort(as.integer(unique(flc$year))))], condition = NA, stage = "chick", bird_weight = NA, winglength = NA))
 # get rid of 2 outliers
-flc[which(flc$condition > 9), "condition"] <- NA
+#flc[which(flc$condition > 9), "condition"] <- NA
 summary(lm(condition ~ as.integer(year) + as.factor(stage), data = flc))
 
 g <- ggplot(flc, aes(as.factor(year), condition))
 g <- g + geom_violin()
 g <- g + stat_summary(aes(as.factor(year)), fun.y = mean, geom = "point", fill = "black", shape = 21, size = 1.5)
 g <- g + xlab("Year") + ylab("Condition (g/mm)")
-g <- g + facet_grid(stage ~ ., scales = "free")
+#g <- g + facet_grid(stage ~ ., scales = "free")
 g <- g + theme_bw() + theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank())
 g <- g + theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = 0, size = 8))
 g <- g + ylim(2,7)
 print(g)
-save_plot("analysis/output/ChickFledglingCondition.png", g, base_aspect_ratio = 1.4, base_width = 6, bg = "transparent") # make room for figure legend)
+save_plot("analysis/output/OffspringCondition.png", g, base_aspect_ratio = 1.4, base_width = 6, bg = "transparent") # make room for figure legend)
 
 
 dodge <- position_dodge(width = 1)
@@ -129,7 +132,7 @@ g <- ggplot(flc, aes(as.factor(year), condition, fill = stage)) +
   #geom_boxplot(width = 0.1, outlier.colour = "grey", outlier.size = 0, position = dodge) +
   theme_bw() + xlab("Year") + ylab("Condition (g/mm)") +
   theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = 0, size = 8))
-save_plot("analysis/output/ChickFledglingCondition_dodge.png", g, 
+save_plot("analysis/output/OffspringCondition_dodge.png", g, 
           base_aspect_ratio = 1.4, base_width = 8, bg = "transparent",
           dpi = 600)
 
@@ -138,7 +141,11 @@ chick_cond <- na.omit(flc[flc$stage == "chick", ])
 chick_cond %>%
   group_by(year) %>%
   summarize(N = n())
-chick_cond <- chick_cond[chick_cond$year != 1998, ] # drop 98 because of low sample size
+
+
+## ADB: June 2018: this is no longer valid with the data sert that Bill sent
+## n98 = 23  -- this changes the condition trend greatly
+#chick_cond <- chick_cond[chick_cond$year != 1998, ] # drop 98 because of low sample size
 chick_model <- fit_model(year = chick_cond$year, response = chick_cond$condition)
 chick_model$sd_rep
 plot_model(chick_model, ylab = "Condition (g/mm)", scale = 1)
@@ -180,7 +187,7 @@ ggsave("analysis/output/combined_chick_condition_trend.png", height = 5, width =
 
 ## Chick and fledgling weight ----
 flc <- filter(cc, stage != "adult") %>%
-  select(year, condition, stage, bird_weight, winglength)
+  select(year, condition, stage, bird_weight)
 
 y <- 1990:2017
 flc <- rbind(flc, data.frame(year = y[which(!y %in% sort(as.integer(unique(flc$year))))], condition = NA, stage = "chick", bird_weight = NA))
@@ -218,10 +225,10 @@ save_plot("analysis/output/ChickFledglingWlength.png", ww, base_aspect_ratio = 1
 ## Bootstrap ----------
 
 ## Bootstrap for adult and fledgling mass during 2014 and 2016
-quantile(sample(x = na.omit(adw[which(adw$year == 2014 & adw$stage == 'adult'), 'bird_weight']), replace = T, size = 100000), probs = c(0.025, 0.975))
-quantile(sample(x = na.omit(adw[which(adw$year == 2016 & adw$stage == 'adult'), 'bird_weight']), replace = T, size = 100000), probs = c(0.025, 0.975))
-quantile(sample(x = na.omit(adw[which(adw$year == 2014 & adw$stage == 'fledgling'), 'bird_weight']), replace = T, size = 100000), probs = c(0.025, 0.975))
-quantile(sample(x = na.omit(adw[which(adw$year == 2016 & adw$stage == 'fledgling'), 'bird_weight']), replace = T, size = 100000), probs = c(0.025, 0.975))
+quantile(sample(x = na.omit(cc[which(cc$year == 2014 & cc$stage == 'adult'), 'bird_weight']), replace = T, size = 100000), probs = c(0.025, 0.975))
+quantile(sample(x = na.omit(cc[which(cc$year == 2016 & cc$stage == 'adult'), 'bird_weight']), replace = T, size = 100000), probs = c(0.025, 0.975))
+quantile(sample(x = na.omit(cc[which(cc$year == 2014 & cc$stage != 'adult'), 'bird_weight']), replace = T, size = 100000), probs = c(0.025, 0.975))
+quantile(sample(x = na.omit(cc[which(cc$year == 2016 & cc$stage != 'adult'), 'bird_weight']), replace = T, size = 100000), probs = c(0.025, 0.975))
 
 
 library(data.table)
