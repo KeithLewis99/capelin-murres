@@ -183,8 +183,16 @@ get_beta(length_model)
 
 
 ## custom TMB analysis of condition for spent females--------------------------------------------
-
 spentf <- subset(whole_capelin, prey_maturity == 'spent' & prey_sex == 'female')
+low_n <- spentf %>% 
+  group_by(year) %>% 
+  summarise(n = n()) %>% 
+  filter(n <= 10) %>% 
+  select(year)
+
+spentf <- spentf[!spentf$year %in% low_n$year, ] # exclude years with less than 10 observations
+
+
 
 condition_model <- fit_model(year = spentf$year, response = spentf$condition)
 weight_model <- fit_model(year = spentf$year, response = spentf$mass)
@@ -200,7 +208,7 @@ cowplot::plot_grid(p1 + remove_x, p2 + remove_x, p3,
                    ncol = 1, labels = "AUTO", 
                    rel_heights = c(0.8, 0.8, 1),
                    align = "v")
-cowplot::ggsave("analysis/output/condition_trend.png", height = 10, width = 7)
+cowplot::ggsave("analysis/output/condition_spentf_trend.png", height = 10, width = 7)
 
 get_beta(condition_model)
 get_beta(weight_model)
