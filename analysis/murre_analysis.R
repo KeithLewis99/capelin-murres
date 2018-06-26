@@ -78,7 +78,7 @@ print(g)
 
 
 ## scaled to help model converge
-s <- 128
+s <- 150  ## ADB, June 26, 2018. Changed this scaling from 126 to 150 to help convergence
 weights <- adw[!is.na(adw$bird_weight), ]
 adult_model <- fit_model(
   year = weights$year,
