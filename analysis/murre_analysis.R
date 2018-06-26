@@ -17,6 +17,7 @@ source("R/fit.R")
 
 ## read data ----
 cc <- read.csv("data-raw/COMU_condition_june2018.csv", header = T, as.is = T)
+#cc <- read.csv("data-raw/COMU_condition_consolidated.csv", header = T, as.is = T)
 
 cc <- subset(cc, rec != "")
 cc$year <- as.numeric(cc$year)  
@@ -78,7 +79,7 @@ print(g)
 
 
 ## scaled to help model converge
-s <- 150  ## ADB, June 26, 2018. Changed this scaling from 126 to 150 to help convergence
+s <- 70 ## ADB, June 26, 2018. Changed this scaling from 126 to 150 to help convergence
 weights <- adw[!is.na(adw$bird_weight), ]
 adult_model <- fit_model(
   year = weights$year,
@@ -89,7 +90,7 @@ plot_model(adult_model, ylab = "Mass (g)", scale = s)
 ggsave("analysis/output/adult_mass_trend.png", height = 5, width = 7)
 get_beta(adult_model) * s
 
-fit <- tmbstan(adult_model$obj, chains = 3)
+fit <- tmbstan(adult_model$obj, chains = 3, iter = 10000)
 # traceplot(fit, pars = names(adult_model$obj$par), inc_warmup = FALSE)
 # pairs(fit)
 # fit
@@ -98,6 +99,14 @@ summary(fit)$summary["beta", c("mean", "2.5%", "97.5%")] * s
 ## running into a convergence issues here. I think it is because of the low
 ## beta value. Fiddled with scale. Still not happy with the gradiant, but param
 ## estimates are similar to those obtained from tmbstan
+
+## alternate result (linear regression with inverse sd as the weights)
+x <- sort(unique(weights$year))
+y <- tapply(weights$bird_weight, weights$year, mean)
+wt <- 1 / tapply(weights$bird_weight, weights$year, sd)
+mod <- lm(y ~ x, weights = wt)
+summary(mod)
+confint(mod)
 
 
 ## Chick and fledgling condition ----
@@ -183,6 +192,16 @@ fc_model$sd_rep
 plot_model(fc_model, ylab = "Condition (g/mm)", scale = 1)
 get_beta(fc_model)
 ggsave("analysis/output/combined_chick_condition_trend.png", height = 5, width = 7)
+
+
+## alternate result (linear regression with inverse sd as the weights)
+x <- sort(unique(fc_cond$year))
+y <- tapply(fc_cond$condition, fc_cond$year, mean)
+wt <- 1 / tapply(fc_cond$condition, fc_cond$year, sd)
+mod <- lm(y ~ x, weights = wt)
+summary(mod)
+confint(mod)
+get_beta(fc_model)
 
 
 ## Chick and fledgling weight ----
