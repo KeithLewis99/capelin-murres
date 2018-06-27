@@ -17,7 +17,7 @@ source("R/fit.R")
 
 ## read data ----
 cc <- read.csv("data-raw/COMU_condition_june2018.csv", header = T, as.is = T)
-#cc <- read.csv("data-raw/COMU_condition_consolidated.csv", header = T, as.is = T)
+#cc2 <- read.csv("data-raw/COMU_condition_consolidated.csv", header = T, as.is = T)
 
 cc <- subset(cc, rec != "")
 cc$year <- as.numeric(cc$year)  
@@ -79,7 +79,7 @@ print(g)
 
 
 ## scaled to help model converge
-s <- 70 ## ADB, June 26, 2018. Changed this scaling from 126 to 150 to help convergence
+s <- 150 ## ADB, June 26, 2018. Changed this scaling from 126 to 150 to help convergence
 weights <- adw[!is.na(adw$bird_weight), ]
 adult_model <- fit_model(
   year = weights$year,
@@ -242,21 +242,13 @@ save_plot("analysis/output/ChickFledglingWlength.png", ww, base_aspect_ratio = 1
 
 
 ## Bootstrap ----------
-
-## Bootstrap for adult and fledgling mass during 2014 and 2016
-quantile(sample(x = na.omit(cc[which(cc$year == 2014 & cc$stage == 'adult'), 'bird_weight']), replace = T, size = 100000), probs = c(0.025, 0.975))
-quantile(sample(x = na.omit(cc[which(cc$year == 2016 & cc$stage == 'adult'), 'bird_weight']), replace = T, size = 100000), probs = c(0.025, 0.975))
-quantile(sample(x = na.omit(cc[which(cc$year == 2014 & cc$stage != 'adult'), 'bird_weight']), replace = T, size = 100000), probs = c(0.025, 0.975))
-quantile(sample(x = na.omit(cc[which(cc$year == 2016 & cc$stage != 'adult'), 'bird_weight']), replace = T, size = 100000), probs = c(0.025, 0.975))
-
-
 library(data.table)
 
 ## bootstrap adult and fledgling mass by year
 weights <- data.table(cc[!is.na(cc$bird_weight), c("year", "stage", "bird_weight")])
 weights <- weights[!(weights$stage == "fledgling" & weights$bird_weight > 500)] # drop outlier
 
-boot <- vector("list", 1000)
+boot <- vector("list", 10)
 for (i in seq_along(boot)) {
   boot[[i]] <- weights[, list(rep = i, bird_weight = bird_weight[sample.int(.N, replace = TRUE)]), 
                        by = c("year", "stage")]

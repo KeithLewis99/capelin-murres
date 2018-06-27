@@ -77,7 +77,7 @@ p1 <- ggplot(data = bootdf, aes(x = year, y = mu, colour = method)) +
   geom_errorbar(aes(x = year, ymin = mu_lwr, ymax = mu_upr), width = 0) +
   scale_x_continuous(breaks = min(tmb_data$years):max(tmb_data$years), expand = c(0.01, 0)) +
   xlab("Year") 
-ggsave("analysis/output/CI_methods.png", height = 10, width = 10)
+ggsave("analysis/output/CI_methods_adultmass.png", height = 10, width = 10)
 
 
 
@@ -123,7 +123,7 @@ p2 <- ggplot(data = bootdf, aes(x = year, y = mu, colour = method)) +
   geom_errorbar(aes(x = year, ymin = mu_lwr, ymax = mu_upr), width = 0) +
   scale_x_continuous(breaks = min(bootdf$year):max(bootdf$year), expand = c(0.01, 0)) +
   xlab("Year") 
-ggsave("analysis/output/CI_methods.png", height = 10, width = 10)
+ggsave("analysis/output/CI_methods_offspringcondition.png", height = 10, width = 10)
 
 
 
