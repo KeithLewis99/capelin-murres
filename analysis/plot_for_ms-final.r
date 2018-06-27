@@ -22,6 +22,8 @@ cc$condition <- cc$bird_weight / cc$winglength
 cc[which(cc$stage == "Adult"), "stage"] <- "adult"
 
 
+## define years used for the x-axis in plots
+yrs <- 1990:2017
 
 ## Chick and fledgling condition ----
 flc <- data.table(filter(cc, stage != "adult" & year >= 1990 & winglength > 30) %>%
@@ -64,7 +66,7 @@ offspring_condition <- ggplot(data = flc_analysis) +
   geom_line(aes(x = year, y = fit), colour = "grey60") +
   geom_point(aes(x = year, y = mean)) +
   geom_errorbar(aes(x = year, ymin = lower, ymax = upper), width = 0) +
-  scale_x_continuous(breaks = min(flc_analysis$year):max(flc_analysis$year), expand = c(0.01, 0)) +
+  scale_x_continuous(breaks = yrs, expand = c(0.01, 0), limits = c(yrs[1], yrs[28])) +
   xlab("Year") + ylab(ylab) +
   cowplot::theme_cowplot() + theme(axis.text.x = element_text(angle = 90, vjust = 0.5))
 
@@ -107,7 +109,7 @@ adult_mass_p <- ggplot(data = adw_analysis) +
 #  geom_line(aes(x = year, y = fit), colour = "grey60") +
   geom_point(aes(x = year, y = mean)) +
   geom_errorbar(aes(x = year, ymin = lower, ymax = upper), width = 0) +
-  scale_x_continuous(breaks = min(adw_analysis$year):max(adw_analysis$year), expand = c(0.01, 0)) +
+  scale_x_continuous(breaks = yrs, expand = c(0.01, 0), limits = c(yrs[1], yrs[28])) +
   xlab("Year") + ylab(ylab) +
   cowplot::theme_cowplot() + theme(axis.text.x = element_text(angle = 90, vjust = 0.5))
 
@@ -158,7 +160,7 @@ fish_mass_p  <- ggplot(data = prey_analysis) +
   geom_line(aes(x = year, y = fit), colour = "grey60") +
   geom_point(aes(x = year, y = mean)) +
   geom_errorbar(aes(x = year, ymin = lower, ymax = upper), width = 0) +
-  scale_x_continuous(breaks = min(prey_analysis$year):max(prey_analysis$year), expand = c(0.01, 0)) +
+  scale_x_continuous(breaks = yrs, expand = c(0.01, 0), limits = c(yrs[1], yrs[28])) +
   xlab("Year") + ylab(ylab) +
   cowplot::theme_cowplot() + theme(axis.text.x = element_text(angle = 90, vjust = 0.5))
 
