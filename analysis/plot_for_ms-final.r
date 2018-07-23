@@ -184,3 +184,32 @@ flc_pars <- data.frame(cbind(slope = coef(flc_mod)[[2]], lower = confint(flc_mod
 
 pars <- rbind(prey_pars, flc_pars, adw_pars)           
 kable(pars, booktabs = T)
+
+
+
+
+# annual proportion of fresh and eyeless capelin  -------------------------
+prey <- read.csv("data-raw/prey_deliveries.csv", na.strings = c("", "NA", "N/A"),
+                 stringsAsFactors = FALSE)
+whole_capelin <- prey[prey$prey == "capelin" & grepl("^fresh|^eyeless", prey$digestion),
+                      c("year", "mass")]
+fresh <- whole_capelin %>% 
+  group_by(year) %>% 
+  summarise(n = n())
+
+total <- prey %>% 
+  group_by(year) %>% 
+  summarise(ntot = n())
+
+props <- total %>%
+  left_join(fresh, by = 'year') %>%
+  mutate(prop = n/ntot) %>%
+  ggplot(aes(x = year, y = prop)) +
+  geom_col() +
+#  geom_errorbar(aes(x = year, ymin = lower, ymax = upper), width = 0) +
+  scale_x_continuous(breaks = yrs, expand = c(0.01, 0), limits = c(yrs[1], yrs[28])) +
+  xlab("Year") + ylab("Proportion fresh and eyeless") +
+  cowplot::theme_cowplot() + theme(axis.text.x = element_text(angle = 90, vjust = 0.5))
+
+
+cowplot::ggsave("analysis/output/proportion_fresh_capelin.png", height = 10, width = 10)
