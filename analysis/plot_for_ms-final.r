@@ -7,6 +7,8 @@
 library(data.table)
 library(cowplot)
 library(knitr)
+library(dplyr)
+library(lubridate)
 
 ## read data ----
 cc <- read.csv("data-raw/COMU_condition_june2018.csv", header = T, as.is = T)
