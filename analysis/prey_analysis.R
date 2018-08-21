@@ -76,13 +76,13 @@ prop$prey <- factor(prop$prey, levels = main_prey)
 
 ggplot(prop, aes(x = as.factor(year), y = prop, fill = prey)) + 
     geom_bar(stat = "identity") +
-    scale_fill_brewer(palette = "Pastel1", direction = -1, name = "Prey") +
-    #scale_fill_viridis_d(direction = -1, alpha = 0.5) +
+    #scale_fill_brewer(palette = "Pastel1", direction = -1, name = "Prey") +
+    scale_fill_viridis_d(direction = -1, name = "Prey") +
     scale_y_continuous(labels = scales::percent_format(), expand = c(0, 0)) +
     xlab("Year") + ylab("Percent") +
     cowplot::theme_cowplot() + cowplot::panel_border(colour = "black") + 
     theme(axis.text.x = element_text(angle = 90, hjust = 1))
-ggsave("analysis/output/prey_comp.png", height = 5, width = 9)
+ggsave("analysis/output/prey_comp.png", height = 4, width = 8)
 
 
 
