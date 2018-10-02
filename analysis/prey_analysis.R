@@ -65,8 +65,9 @@ prey_comp$prey_sex[!prey_comp$prey_sex %in% c("male", "female")] <- "unknown"
 prey_comp$prey <- ifelse(prey_comp$prey == "capelin" & prey_comp$prey_sex != "unknown", 
                          paste(prey_comp$prey_sex, prey_comp$prey),
                          prey_comp$prey)
+prey_comp$prey[prey_comp$prey == "capelin"] <- "unsexed capelin"
 main_prey <- c("other", "sandlance", 
-               "capelin", "male capelin", "female capelin")
+               "unsexed capelin", "male capelin", "female capelin")
 
 prop <- prey_comp %>% 
     group_by(year, prey) %>% 
