@@ -30,18 +30,26 @@ cc$bird_weight <- as.numeric(cc$bird_weight)
 cc$condition <- cc$bird_weight / cc$winglength
 cc[which(cc$stage == "Adult"), "stage"] <- "adult"
 
-cc %>% 
+figa1 <- cc %>% 
   filter(stage != "adult") %>% 
-  ggplot(aes(x = bird_weight, 
-             y = winglength, 
-             fill = stage,
-             colour = stage)) +
-  scale_fill_manual(name = "Stage", values = c("white", "grey50")) +
-  geom_point(colour = "black", size = 2, shape = 21) + 
-  xlim(0, 400) + cowplot::theme_cowplot() +
-  xlab("Mass (g)") + ylab("Wing length (mm)")
-ggsave("analysis/output/chick_mass_wing_relationship.png",
-       height = 4.2, width = 5.5, scale = 1.1)
+  ggplot(aes(y = bird_weight, 
+             x = winglength, 
+             fill = stage)) +
+  geom_point(shape = 21, color = 'black', size = 2) + 
+  ylim(0, 400) + 
+ # xlim(0, 100) +
+  ylab("Mass (g)") + 
+  xlab("Wing length (mm)") + 
+  theme_cowplot() + 
+  theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank()) +
+  # theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = 0, size = 8),
+  #       axis.text.y = element_text(hjust = 1, vjust = 0, size = 8)) +
+  scale_fill_manual(name = 'Stage', values = c('white', 'grey40'))
+
+
+cowplot::ggsave("analysis/output/figa1.png")
+
+
 
 d <- cc[cc$year == 1998, c("stage", "bird_weight", "winglength")]
 nrow(d)
