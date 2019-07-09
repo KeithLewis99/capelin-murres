@@ -11,6 +11,10 @@ library(dplyr)
 library(lubridate)
 library(ggResidpanel)
 
+# source functions ----
+source('R/compile_rmd.R')
+source('R/compile_rmd_word.R')
+
 ## read data ----
 cc <- read.csv("data-raw/COMU_condition_june2018.csv", header = T, as.is = T)
 
@@ -266,3 +270,6 @@ offcond_capmass <- ggplot(data = chick_cap_analysis) +
   cowplot::theme_cowplot()# + theme(axis.text.x = element_text(angle = 90, vjust = 0.5))
 
 cowplot::ggsave(plot = offcond_capmass, "analysis/output/chickcondition_f_capelinmass.png", height = 10, width = 10)
+
+# compile rmd ----
+compile_rmd_word('ChickCondition_f_CapelinMass_word')
