@@ -213,3 +213,43 @@ props <- total %>%
 
 
 cowplot::ggsave("analysis/output/proportion_fresh_capelin.png", height = 10, width = 10)
+
+# analysis of chick condition as a function of capelin mass ----
+# capelin mass in object prey_sum
+# chick condition in object flc
+
+
+## alternate result (linear regression with inverse var as the weights)
+
+restricprey <- subset(prey_sum, year %in% unique(flc$year))
+restrictflc <- subset(flc_sum, year %in% unique(prey_sum$year))
+
+x <- restricprey$mean
+y <- tapply(restrictflc$condition, restrictflc$year, mean)
+wt <- 1 / tapply(restrictflc$condition, restrictflc$year, var)
+mod <- lm(y ~ x, weights = wt)
+summary(mod)
+confint(mod)
+predicted <- predict(mod, x = prey$year, se.fit = TRUE, interval = "confidence", level = 0.95)
+
+chick_cap_analysis <- 
+  
+  data.frame(x, restrictflc, predicted$fit)
+
+
+
+
+chick_cap_mod <- mod
+
+ylab <- "Offspring condition (g/mm)"
+xlab <- "Capelin mass (g)"
+offcond_capmass <- ggplot(data = chick_cap_analysis) +
+  geom_ribbon(aes(x = x, ymin = lwr, ymax = upr), fill = "lightgrey") +
+  geom_line(aes(x = x, y = fit), colour = "grey60") +
+  geom_point(aes(x = x, y = y)) +
+  geom_errorbar(aes(x = x, ymin = lower, ymax = upper), width = 0) +
+ # scale_x_continuous(breaks = yrs, expand = c(0.01, 0), limits = c(yrs[1], yrs[28])) +
+  xlab(xlab) + ylab(ylab) +
+  cowplot::theme_cowplot()# + theme(axis.text.x = element_text(angle = 90, vjust = 0.5))
+
+cowplot::ggsave(plot = offcond_capmass, "analysis/output/chickcondition_f_capelinmass.png", height = 10, width = 10)
