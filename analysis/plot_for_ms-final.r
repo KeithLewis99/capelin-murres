@@ -9,6 +9,7 @@ library(cowplot)
 library(knitr)
 library(dplyr)
 library(lubridate)
+library(ggResidpanel)
 
 ## read data ----
 cc <- read.csv("data-raw/COMU_condition_june2018.csv", header = T, as.is = T)
@@ -218,11 +219,8 @@ cowplot::ggsave("analysis/output/proportion_fresh_capelin.png", height = 10, wid
 # capelin mass in object prey_sum
 # chick condition in object flc
 
-
-## alternate result (linear regression with inverse var as the weights)
-
 restricprey <- subset(prey_sum, year %in% unique(flc$year))
-restrictflc <- subset(flc_sum, year %in% unique(prey_sum$year))
+restrictflc <- subset(flc, year %in% unique(prey_sum$year))
 
 x <- restricprey$mean
 y <- tapply(restrictflc$condition, restrictflc$year, mean)
@@ -230,12 +228,29 @@ wt <- 1 / tapply(restrictflc$condition, restrictflc$year, var)
 mod <- lm(y ~ x, weights = wt)
 summary(mod)
 confint(mod)
+
+# pvalue close to alpha
+# residuals kind of OK, but not perfect
+resid_panel(mod)
+
+# * randomization test ----
+F.ran <- numeric() 
+nrand <- 10000 
+for(i in 1:nrand) {
+  xran <- sample(x, length(x), replace = FALSE) # randomize explanatory var, keep response and weights unaltered
+  F.ran <- c(F.ran, anova(lm(y ~ xran, weights = wt))[1,4]) 
+}
+
+F.obs <- anova(chick_cap_mod)[1,4] 
+ranpvalue <- length(F.ran[F.ran>F.obs])/nrand 
+parampvalue <- anova(chick_cap_mod)[1,5]
+
+# ranpvalue and parampvalue almost identical, both are > 5%: report parampvalue
+
+# * output chick condition = f(capelinmass)----
 predicted <- predict(mod, x = prey$year, se.fit = TRUE, interval = "confidence", level = 0.95)
 
-chick_cap_analysis <- data.frame(x, restrictflc, predicted$fit)
-
-
-
+chick_cap_analysis <- data.frame(x, subset(flc_sum, year %in% unique(prey_sum$year)), predicted$fit)
 
 chick_cap_mod <- mod
 
