@@ -269,7 +269,7 @@ offcond_capmass <- ggplot(data = chick_cap_analysis) +
   xlab(xlab) + ylab(ylab) +
   cowplot::theme_cowplot()# + theme(axis.text.x = element_text(angle = 90, vjust = 0.5))
 
-cowplot::ggsave(plot = offcond_capmass, "analysis/output/chickcondition_f_capelinmass.png", height = 10, width = 10)
+cowplot::ggsave(plot = offcond_capmass, "analysis/output/chickcondition_f_capelinmass.png", height = 6, width = 10)
 
 # compile rmd ----
 compile_rmd_word('ChickCondition_f_CapelinMass_word')

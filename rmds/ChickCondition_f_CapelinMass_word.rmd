@@ -17,6 +17,10 @@ knitr::opts_chunk$set(echo = TRUE)
 options(scipen = 999)
 ```
 
+
+https://github.com/KeithLewis99/capelin-murres/blob/master/reports/ChickCondition_f_CapelinMass_word.docx
+
+
 A reviewer asked us to analyze murre chick condition as a fucntion of capelin mass   
 This analysis would assume that higher capelin mass in the deliveries would be directly reflected in higher chick condition       
 
@@ -36,4 +40,4 @@ THere are a few issues:
   
   
 This may be due becuase the assumption of a direct translation of high capelin mass into high chick condition may not be met, as this mechanism is also mediated by mean number of prey deliveries, and the assimilation of energy from the prey into bird tissue.      
-I am sure I am missing things, as it is late and I may not be thinking this through, but in gereneal terms I think that 
+I am sure I am missing things, as it is late and I may not be thinking this through, but in gereneal terms I think that we are not capturing the relationship well because both metrics are inherently very noisy. THe relationships are better captured individually as functions of year, as these do not have error in the x-axis, i.e. year is measured without error.
