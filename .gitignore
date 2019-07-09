@@ -21,4 +21,4 @@ vignettes/*.pdf
 *.o
 *.pdf
 *.docx
-*.png
+#*.png
