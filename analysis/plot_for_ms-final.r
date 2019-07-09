@@ -29,7 +29,7 @@ yrs <- 1990:2017
 
 ## Chick and fledgling condition ----
 flc <- data.table(filter(cc, stage != "adult" & year >= 1990 & winglength > 30) %>%
-  select(year, condition))
+                    select(year, condition))
 flc <- na.omit(flc)
 
 ## filtered out chicks with winglength <= 30 mm because they have yet to enter
@@ -107,8 +107,8 @@ adw_mod <- mod
 
 ylab <- "Adult mass (g)"
 adult_mass_p <- ggplot(data = adw_analysis) +
-#  geom_ribbon(aes(x = year, ymin = lwr, ymax = upr), fill = "lightgrey") +
-#  geom_line(aes(x = year, y = fit), colour = "grey60") +
+  #  geom_ribbon(aes(x = year, ymin = lwr, ymax = upr), fill = "lightgrey") +
+  #  geom_line(aes(x = year, y = fit), colour = "grey60") +
   geom_point(aes(x = year, y = mean)) +
   geom_errorbar(aes(x = year, ymin = lower, ymax = upper), width = 0) +
   scale_x_continuous(breaks = yrs, expand = c(0.01, 0), limits = c(yrs[1], yrs[28])) +
@@ -206,7 +206,7 @@ props <- total %>%
   mutate(prop = n/ntot) %>%
   ggplot(aes(x = year, y = prop)) +
   geom_col() +
-#  geom_errorbar(aes(x = year, ymin = lower, ymax = upper), width = 0) +
+  #  geom_errorbar(aes(x = year, ymin = lower, ymax = upper), width = 0) +
   scale_x_continuous(breaks = yrs, expand = c(0.01, 0), limits = c(yrs[1], yrs[28])) +
   xlab("Year") + ylab("Proportion fresh and eyeless") +
   cowplot::theme_cowplot() + theme(axis.text.x = element_text(angle = 90, vjust = 0.5))
@@ -232,9 +232,7 @@ summary(mod)
 confint(mod)
 predicted <- predict(mod, x = prey$year, se.fit = TRUE, interval = "confidence", level = 0.95)
 
-chick_cap_analysis <- 
-  
-  data.frame(x, restrictflc, predicted$fit)
+chick_cap_analysis <- data.frame(x, restrictflc, predicted$fit)
 
 
 
@@ -248,7 +246,7 @@ offcond_capmass <- ggplot(data = chick_cap_analysis) +
   geom_line(aes(x = x, y = fit), colour = "grey60") +
   geom_point(aes(x = x, y = y)) +
   geom_errorbar(aes(x = x, ymin = lower, ymax = upper), width = 0) +
- # scale_x_continuous(breaks = yrs, expand = c(0.01, 0), limits = c(yrs[1], yrs[28])) +
+  # scale_x_continuous(breaks = yrs, expand = c(0.01, 0), limits = c(yrs[1], yrs[28])) +
   xlab(xlab) + ylab(ylab) +
   cowplot::theme_cowplot()# + theme(axis.text.x = element_text(angle = 90, vjust = 0.5))
 
