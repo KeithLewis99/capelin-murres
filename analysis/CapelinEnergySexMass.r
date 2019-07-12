@@ -1,5 +1,7 @@
 library(cowplot)
 library(viridis)
+library(magrittr)
+library(tidyr)
 
 endens <- data.frame(sex = c('male', 'female.ovid', 'female.spent'), density = rep(c(3.8, 4.6, 3.9), times = length(10:18)), mass = rep(10:18, each = 3))#, umass = rep(18,3))
 
@@ -7,6 +9,15 @@ endens <- data.frame(sex = c('male', 'female.ovid', 'female.spent'), density = r
 endens$energy <- with(endens, density * mass)
 
 cols <- viridis::viridis(3)#[-4]
+
+endens <- endens %>%
+  transform(sex = factor(sex, 
+                         levels = c('female.ovid',
+                                    'female.spent',
+                                    'male'),
+                         labels = c('gravid female',
+                                    'spent female',
+                                    'male')))
 ggplot(data = endens, aes(x = mass, y = energy, color = sex)) +
   geom_line() + 
   theme_cowplot() +
